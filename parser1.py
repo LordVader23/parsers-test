@@ -21,7 +21,8 @@ def main():
     div = soup.find('div', text=re.compile(r'^\d{2}.\d{2}.\d{4}$'))
     # url = a.get('href')
     print(div.next)
-
+    a = soup.find('a', href='https://ya.ru').previousSibling.previousSibling
+    print(a)
 
 
 if __name__ == '__main__':
