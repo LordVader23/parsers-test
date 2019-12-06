@@ -11,18 +11,20 @@ def get_html(url):
 
 def get_count_pages(html):
     soup = BeautifulSoup(html, 'lxml')
-    regularka = r'^pagination-item-\w{1,10}.pagination-item_arrow-\w{1,10}'
+    # regularka = r'^pagination-item-\w{1,10}.pagination-item_arrow-\w{1,10}'
+    regularka = r'pagination-item-([A-Z])\w+.pagination-item_arrow-([A-Z])\w+' # Regexp for the class_name of the elem
     pagination_item = ''
     try:
-        # pagination_item = soup.find('span', class_=re.compile(regularka))
-        pagination_item = soup.find('span', class_=re.compile(regularka)).previousSibling.previousSibling  # Fucking BS4
+        # Find elem use class_name, which will change in future
+        # pagination_item = soup.find('span', class_='pagination-item-1WyVp pagination-item_arrow-Sd9ID').previousSibling
+        # Find elem use regexp(don't work)
+        pagination_item = soup.find('span', class_=re.compile(regularka)).previousSibling.previousSibling
         print(pagination_item)
     except :
-        print('suka blyat')
-    # print(dir(pagination_item))
-    # count_pages = int(pagination_item)
+        pass
+    count_pages = int(pagination_item.text)
 
-    return 100  # I am repairing this shit later
+    return count_pages
 
 
 def write_csv(data):
@@ -93,10 +95,10 @@ def main():
     query_part = 'q=htc'
     html = get_html(url)
     pages = get_count_pages(html)
-    for i in range(1, 3):  # really - pages + 1
-        url_gen = base_url + page_part + str(i) + '&' + query_part
-        html = get_html(url_gen)
-        get_page_data(html)
+    # for i in range(1, 3):  # really - pages + 1
+    #     url_gen = base_url + page_part + str(i) + '&' + query_part
+    #     html = get_html(url_gen)
+    #     get_page_data(html)
 
 
 
