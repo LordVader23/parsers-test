@@ -26,12 +26,24 @@ def get_count_pages(html):
 
 
 def write_csv(data):
-    with open('avito.csv', 'a') as f:
+    data_row = [
+        data['title'],
+        data['price'],
+        data['metro'],
+        data['url']
+    ]
+    with open('avito.csv', 'a', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow((data['title'],
-                         data['price'],
-                         data['metro'],
-                         data['url']))
+        writer.writerow(data_row)
+
+
+def write_file(data):
+    file = open(r'avito_file.txt', 'a', encoding='utf-8')
+    data_l = [data[i] for i in data]
+    data_row = ';'.join(data_l)
+    data_row += '\n'
+    # data_row = 'title - {}'.format(data['title'])
+    file.write(data_row)
 
 
 def get_page_data(html):
@@ -39,7 +51,13 @@ def get_page_data(html):
     ads = soup.find('div', class_='js-catalog_serp').find_all('div', class_='item__line')
     for ad in ads:
         try:
-            title = ad.find('h3', class_='title item-description-title').find('a').text.strip()
+            title = ad.find('a', class_='snippet-link').text.strip()
+
+            if ('htc' in title) or ('HTC' in title)\
+                    or ('hts' in title) or ('HTS' in title):
+                pass
+            else:
+                continue
         except:
             title = ''
 
@@ -65,6 +83,7 @@ def get_page_data(html):
                 'url': url}
 
         write_csv(data)
+        # write_file(data)
 
 
 def main():
