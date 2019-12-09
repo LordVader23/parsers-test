@@ -11,18 +11,14 @@ def get_html(url):
 
 def get_count_pages(html):
     soup = BeautifulSoup(html, 'lxml')
-    # regularka = r'^pagination-item-\w{1,10}.pagination-item_arrow-\w{1,10}'
-    regularka = r'pagination-item-([A-Z])\w+.pagination-item_arrow-([A-Z])\w+' # Regexp for the class_name of the elem
+    regularka = r'^pagination-item-([A-Z0-9a-z]){1,5}\spagination-item_arrow-([A-Z0-9a-z]){1,5}$' # Regexp for the class_name of the elem
     pagination_item = ''
     try:
         # Find elem use class_name, which will change in future
-        # pagination_item = soup.find('span', class_='pagination-item-1WyVp pagination-item_arrow-Sd9ID').previousSibling
-        # Find elem use regexp(don't work)
-        pagination_item = soup.find('span', class_=re.compile(regularka)).previousSibling.previousSibling
-        print(pagination_item)
+        pagination_item = soup.find('span', class_=re.compile(regularka)).previousSibling
     except :
-        pass
-    count_pages = int(pagination_item.text)
+        print('suka blyat')
+    count_pages = int(pagination_item.next)
 
     return count_pages
 
@@ -48,7 +44,7 @@ def write_file(data):
     file.write(data_row)
 
 
-def get_page_data(html):
+def get_page_data(html, to_path):
     soup = BeautifulSoup(html, 'lxml')
     ads = soup.find('div', class_='js-catalog_serp').find_all('div', class_='item__line')
     for ad in ads:
@@ -84,23 +80,23 @@ def get_page_data(html):
                 'metro': metro,
                 'url': url}
 
-        write_csv(data)
-        # write_file(data)
+        if to_path == 'file':
+            write_file(data)
+        else:
+            write_csv(data)
 
 
-def main():
+def main(to_path='csv'):
     url = 'https://www.avito.ru/rossiya/telefony?q=hts'
     base_url = 'https://www.avito.ru/rossiya/telefony?'
     page_part = 'p='
     query_part = 'q=htc'
     html = get_html(url)
     pages = get_count_pages(html)
-    # for i in range(1, 3):  # really - pages + 1
-    #     url_gen = base_url + page_part + str(i) + '&' + query_part
-    #     html = get_html(url_gen)
-    #     get_page_data(html)
-
-
+    for i in range(1, 3):  # really - pages + 1
+        url_gen = base_url + page_part + str(i) + '&' + query_part
+        html = get_html(url_gen)
+        get_page_data(html, to_path)
 
 
 if __name__ == '__main__':
