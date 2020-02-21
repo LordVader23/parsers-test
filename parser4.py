@@ -3,15 +3,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from time import sleep
+import datetime
 import csv
 
 
 class Bot:
-    def __init__(self):
+    def __init__(self, timer=False):
         self.driver = webdriver.Firefox()
         self.links = 0  # Default value
         self.get_links()
-        self.get_info()
+
+        if timer:
+            print(self.get_time(len(self.links), get_links))
+
+        else:
+            self.get_info()
 
     def get_links(self):
         self.driver.get('https://coinmarketcap.com/all/views/all/')
@@ -35,6 +41,22 @@ class Bot:
         with open('coin_market.csv', 'a+', encoding='utf-8') as f:
             writer = csv.writer(f)
             writer.writerow(data_row)
+
+    def get_time(self, count_elems, func):
+        """
+
+        :param count_elems: count of elems(links), if False func won't count elems/time(elems per second)
+        :param func: func which will parse
+        :return: time(in secs) or elems/time(elems per second)
+        """
+        start_time = datetime.now()
+        func(self)
+        current_time = datetime.now() - start_time
+
+        if count_elems:
+            return 10 / current_time
+        else:
+            return current_time
 
     def get_info(self):
         info = []  # Array with dicts({title, price}) and buffer
