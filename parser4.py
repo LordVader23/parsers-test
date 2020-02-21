@@ -31,14 +31,14 @@ class Bot:
             data['title'],
             data['price'],
         ]
-        with open('coin_market.csv', 'a', encoding='utf-8') as f:
+        with open('coin_market.csv', 'a+', encoding='utf-8') as f:
             writer = csv.writer(f)
             writer.writerow(data_row)
 
     def get_info(self):
         info = []  # Array with dicts({title, price}) and buffer
 
-        for link in self.links[0:10]:
+        for link in self.links[0:11]:
             current_url = self.driver.current_url  # Save current link
             new_window_url = link
 
@@ -60,6 +60,12 @@ class Bot:
                 data = {'title': title,
                         'price': price}
                 info.append(data)
+
+                if link == self.links[-1]:  # Necessary write
+                    for elem in info:
+                        write_csv(elem)
+                    else:
+                        del info[:]
 
             self.driver.get(current_url)  # Follow back
 
