@@ -36,7 +36,7 @@ class Bot:
             writer.writerow(data_row)
 
     def get_info(self):
-        info = []  # Array with dicts({title, price})
+        info = []  # Array with dicts({title, price}) and buffer
 
         for link in self.links[0:10]:
             current_url = self.driver.current_url  # Save current link
@@ -51,13 +51,17 @@ class Bot:
             title = self.driver.find_element_by_xpath('//div[@class="cmc-details-panel-header sc-1extin6-0 gMbCkP"]/h1').text
             price = self.driver.find_element_by_class_name('cmc-details-panel-price__price').text
 
-            data = {'title': title,
-                    'price': price}
-            info.append(data)
+            if len(info) == 10:  # if buffer info is fulled info will write in csv file
+                for elem in info:
+                    write_csv(elem)
+                else:
+                    del info[:]
+            else:
+                data = {'title': title,
+                        'price': price}
+                info.append(data)
 
             self.driver.get(current_url)  # Follow back
-
-        print(info)
 
 
 if __name__ == '__main__':
