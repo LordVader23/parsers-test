@@ -17,7 +17,8 @@ class Bot:
 
         sleep(5)
 
-        links = self.driver.find_elements_by_xpath('//a[@class="cmc-link"]')
+        links = self.driver.find_elements_by_xpath('//div[@class="cmc-table__column-name sc-1kxikfi-0 eTVhdN"]'
+                                                   '/a[@class="cmc-link"]')
         links_ar = []
 
         for link in links:
