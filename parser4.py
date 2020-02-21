@@ -26,10 +26,19 @@ class Bot:
 
         self.links = links_ar
 
+    def write_csv(data):
+        data_row = [
+            data['title'],
+            data['price'],
+        ]
+        with open('coin_market.csv', 'a', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(data_row)
+
     def get_info(self):
         info = []  # Array with dicts({title, price})
 
-        for link in self.links:
+        for link in self.links[0:10]:
             current_url = self.driver.current_url  # Save current link
             new_window_url = link
 
