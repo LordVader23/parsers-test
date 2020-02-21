@@ -3,18 +3,25 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from time import sleep
-import datetime
+from datetime import datetime
 import csv
 
 
 class Bot:
-    def __init__(self, timer=False):
+    def __init__(self):
         self.driver = webdriver.Firefox()
         self.links = 0  # Default value
+
+    def run(self, timer=False):
+        """
+        Run this method to start parsing
+        :param timer: count time or not
+        :return: none
+        """
         self.get_links()
 
         if timer:
-            print(self.get_time(len(self.links), get_links))
+            print(self.get_time(len(self.links), self.get_info))
 
         else:
             self.get_info()
@@ -50,13 +57,15 @@ class Bot:
         :return: time(in secs) or elems/time(elems per second)
         """
         start_time = datetime.now()
-        func(self)
+        func()
         current_time = datetime.now() - start_time
 
-        if count_elems:
-            return 10 / current_time
-        else:
-            return current_time
+        # if count_elems:
+        #     return 10 / current_time
+        # else:
+        #     return current_time
+
+        return current_time
 
     def get_info(self):
         info = []  # Array with dicts({title, price}) and buffer
@@ -95,6 +104,8 @@ class Bot:
 
 if __name__ == '__main__':
     bot = Bot()
+    bot.run(timer=True)
+    # print(datetime.now())
 
 
 
