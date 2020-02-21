@@ -2,9 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from time import sleep
 from datetime import datetime
 import csv
+import time
 
 
 class Bot:
@@ -29,7 +29,7 @@ class Bot:
     def get_links(self):
         self.driver.get('https://coinmarketcap.com/all/views/all/')
 
-        sleep(5)
+        time.sleep(5)
 
         links = self.driver.find_elements_by_xpath('//div[@class="cmc-table__column-name sc-1kxikfi-0 eTVhdN"]'
                                                    '/a[@class="cmc-link"]')
@@ -52,20 +52,22 @@ class Bot:
     def get_time(self, count_elems, func):
         """
 
-        :param count_elems: count of elems(links), if False func won't count elems/time(elems per second)
+        :param count_elems: count of elems(links), if False func won't count elems/time(elems per minute)
         :param func: func which will parse
-        :return: time(in secs) or elems/time(elems per second)
+        :return: time(in secs) or elems/time(elems per minute)
         """
-        start_time = datetime.now()
-        func()
-        current_time = datetime.now() - start_time
+        if count_elems:
+            start_time = time.time()
+            func()
+            current_time = time.time() - start_time
 
-        # if count_elems:
-        #     return 10 / current_time
-        # else:
-        #     return current_time
+            return (10 / current_time) * 60
+        else:
+            start_time = datetime.now()
+            func()
+            current_time = datetime.now() - start_time
 
-        return current_time
+            return current_time
 
     def get_info(self):
         info = []  # Array with dicts({title, price}) and buffer
