@@ -3,6 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from time import sleep
+import csv
 
 
 class Bot:
@@ -26,7 +27,7 @@ class Bot:
 
         self.links = links_ar
 
-    def write_csv(data):
+    def write_csv(self, data):
         data_row = [
             data['title'],
             data['price'],
@@ -53,7 +54,7 @@ class Bot:
 
             if len(info) == 10:  # if buffer info is fulled info will write in csv file
                 for elem in info:
-                    write_csv(elem)
+                    self.write_csv(elem)
                 else:
                     del info[:]
             else:
@@ -63,7 +64,7 @@ class Bot:
 
                 if link == self.links[-1]:  # Necessary write
                     for elem in info:
-                        write_csv(elem)
+                        self.write_csv(elem)
                     else:
                         del info[:]
 
