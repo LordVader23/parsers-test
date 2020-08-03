@@ -11,20 +11,22 @@ def get_html(url):
 
 def get_links(html):
     soup = bs(html, 'lxml')
-    # all_rows = soup.find_all('td', class_=re.compile(r'^cmc-table__cell'))
-    # all_links = []
-    #
-    # for row in all_rows:
-    #     link = row.find('a', href=re.compile(r'^/currencies/'))
-    #     if link:
-    #         url = 'https://coinmarketcap.com' + link.get('href')
-    #         all_links.append(url)
-    links = soup.find_all('a', class_='cmc-link')
+    all_rows = soup.find_all('td', class_=re.compile(r'^cmc-table__cell'))
     all_links = []
 
-    for link in links:
-        url = 'https://coinmarketcap.com' + link.get('href')
-        all_links.append(url)
+    for row in all_rows:
+        link = row.find('a', href=re.compile(r'^/currencies/[a-z, A-Z]+/$'))
+        if link:
+            url = 'https://coinmarketcap.com' + link.get('href')
+            all_links.append(url)
+
+
+    # links = soup.find_all('a', class_='cmc-link', href=re.compile(r'^/currencies/'))
+    # all_links = []
+    #
+    # for link in links:
+    #     url = 'https://coinmarketcap.com' + link.get('href')
+    #     all_links.append(url)
 
     return all_links
 
@@ -33,4 +35,9 @@ def get_links(html):
 
 
 if __name__ == '__main__':
-    pass
+    url = 'https://coinmarketcap.com/all/views/all/'
+    html = get_html(url)
+    all_links = get_links(html)
+
+    for link in all_links:
+        print(link)
