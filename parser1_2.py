@@ -10,6 +10,11 @@ def get_html(url):
 
 
 def get_links(html):
+    """
+    Get all links from page(with url=html) and returns array with them.
+    :param html: url
+    :return: array with links(strs)
+    """
     soup = bs(html, 'lxml')
     all_rows = soup.find_all('td', class_=re.compile(r'^cmc-table__cell'))
     all_links = []
