@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 import csv
 import re
+import html5lib
 
 
 def get_html(url):
@@ -36,7 +37,30 @@ def get_links(html):
     return all_links
 
 
+def get_data(html):
+    """
+    Gets name and price from the page(url=html)
+    :param html: url
+    :return: dict with keys: name(str), price(int)
+    """
+    soup = bs(html, 'html5lib')
 
+    data = {}
+    # name = soup.find('img', class_='cmc-static-icon cmc-static-icon-1')
+    try:
+        name = soup.find('img', alt='Bitcoin').next_sibling.strip()
+    except:
+        name = ''
+    data['name'] = name
+
+    try:
+        price = soup.find('span', class_='cmc-details-panel-price__price').text
+        price = price.replace('\xa0', ' ')
+    except:
+        price = ''
+    data['price'] = price
+
+    return data
 
 
 if __name__ == '__main__':
@@ -44,5 +68,14 @@ if __name__ == '__main__':
     html = get_html(url)
     all_links = get_links(html)
 
-    for link in all_links:
-        print(link)
+    # file = open('test_html.html', 'w')
+    # file.write(get_html(all_links[0]))
+    # file.close()
+
+    # for link in all_links:
+    #     print(link)
+    # print(all_links[0])
+    file = open('btc.html', 'r').read()
+    # print(get_data(get_html(all_links[0])))
+    print(get_data(file))
+
