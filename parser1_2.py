@@ -77,6 +77,17 @@ def write_csv(data):
         writer.writerow((data['name'], date['price']))
 
 
+def make_all(url):
+    """
+    Gets html from url, gets data from html, writes data in csv file.
+    :param url: url(link)
+    :return: none
+    """
+    html = get_html(url)
+    data = get_data(html)
+    write_csv(data)
+
+
 if __name__ == '__main__':
     start = datetime.now()
     url = 'https://coinmarketcap.com/all/views/all/'
@@ -87,16 +98,22 @@ if __name__ == '__main__':
     # file.write(get_html(all_links[0]))
     # file.close()
 
-    for link in all_links:
-        html = get_html(link)
-        data = get_data(html)
-        write_csv(data)
+    # Parsing without multiprocessing
+    # for link in all_links:
+    #     html = get_html(link)
+    #     data = get_data(html)
+    #     write_csv(data)
+    #
+    # end = datetime.now()
+    # total = end - start
+    # print('Parsing is finished')
+    # print('time wasted = {}'.format(total))
 
-    end = datetime.now()
-    total = end - start
-    print('Parsing is finished')
-    print('time wasted = {}'.format(total))
+
     # file = open('btc.html', 'r').read()
     # # print(get_data(get_html(all_links[0])))
     # print(get_data(file))
+
+    with Pool(40) as p:
+        p.map()
 
