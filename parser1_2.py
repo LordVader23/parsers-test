@@ -65,12 +65,14 @@ def get_data(html):
 
 def write_csv(data):
     """
-
+    Writes data in csv file.
     :param data: dict
     :return: none
     """
     with open('coin_market(1).csv') as file:
-        pass
+        writer = csv.writer(file)
+
+        writer.writerow((data['name'], date['price']))
 
 
 if __name__ == '__main__':
