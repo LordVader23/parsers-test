@@ -63,6 +63,16 @@ def get_data(html):
     return data
 
 
+def write_csv(data):
+    """
+
+    :param data: dict
+    :return: none
+    """
+    with open('coin_market(1).csv') as file:
+        pass
+
+
 if __name__ == '__main__':
     url = 'https://coinmarketcap.com/all/views/all/'
     html = get_html(url)
