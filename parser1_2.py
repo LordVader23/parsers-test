@@ -1,8 +1,10 @@
-import requests
 from bs4 import BeautifulSoup as bs
+from multiprocessing import Pool
+import requests
 import csv
 import re
 import html5lib
+import datetime
 
 
 def get_html(url):
@@ -76,6 +78,7 @@ def write_csv(data):
 
 
 if __name__ == '__main__':
+    start = datetime.now()
     url = 'https://coinmarketcap.com/all/views/all/'
     html = get_html(url)
     all_links = get_links(html)
@@ -84,10 +87,16 @@ if __name__ == '__main__':
     # file.write(get_html(all_links[0]))
     # file.close()
 
-    # for link in all_links:
-    #     print(link)
-    # print(all_links[0])
-    file = open('btc.html', 'r').read()
-    # print(get_data(get_html(all_links[0])))
-    print(get_data(file))
+    for link in all_links:
+        html = get_html(link)
+        data = get_data(html)
+        write_csv(data)
+
+    end = datetime.now()
+    total = end - start
+    print('Parsing is finished')
+    print('time wasted = {}'.format(total))
+    # file = open('btc.html', 'r').read()
+    # # print(get_data(get_html(all_links[0])))
+    # print(get_data(file))
 
