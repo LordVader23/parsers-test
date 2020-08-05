@@ -94,6 +94,7 @@ if __name__ == '__main__':
     html = get_html(url)
     all_links = get_links(html)
 
+    # Test html from request
     # file = open('test_html.html', 'w')
     # file.write(get_html(all_links[0]))
     # file.close()
@@ -109,11 +110,18 @@ if __name__ == '__main__':
     # print('Parsing is finished')
     # print('time wasted = {}'.format(total))
 
-
+    # Test html from file, saved by hand
     # file = open('btc.html', 'r').read()
     # # print(get_data(get_html(all_links[0])))
     # print(get_data(file))
 
+    # Parsing using multiprocessing
     with Pool(40) as p:
-        p.map()
+        p.map(make_all, all_links)
+
+    end = datetime.now()
+    total = end - start
+    print('Parsing is finished')
+    print('time wasted = {}'.format(total))
+
 
