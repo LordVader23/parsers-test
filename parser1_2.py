@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup as bs
 from multiprocessing import Pool
+from datetime import datetime
 import requests
 import csv
 import re
 import html5lib
-import datetime
 
 
 def get_html(url):
