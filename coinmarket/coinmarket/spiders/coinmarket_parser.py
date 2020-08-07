@@ -28,7 +28,17 @@ class CoinmarketParserSpider(scrapy.Spider):
         #     if re.compile('^/currencies/').findall(href.strip()):
         #         prices.append(link)
         #         links.append('https://coinmarketcap.com/' + 'href')
+        row_data = zip(names, symbols, prices, links)
 
+        for (name, symbol, price, link) in row_data:
+            scrapped_data = {
+                'page': response.url,
+                'name': name,
+                'price': price,
+                'link': link,
+            }
+
+            yield scrapped_data
 
 
 
