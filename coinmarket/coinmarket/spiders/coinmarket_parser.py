@@ -14,15 +14,18 @@ class CoinmarketParserSpider(scrapy.Spider):
         symbols = []
 
         for symbol in symbols_dirty:
-            # if re.compile('^[A-Z]{2,5}'):
-            #     pass
+            if re.compile('^[A-Z]{3,5}$').findall(symbol.strip()):
+                symbols.append(symbol)
 
         price_links = response.css('td a.cmc-link::text').extract()
+        price_hreves = response.css("td a.cmc-link::attr('href')").extract()
         prices = []
+        links = []
 
-        for price_link in price_links:
-            # if re.compile('^'):
-            #     prices.append(price_link)
+        for (index, (link, href)) in enumerate(zip(price_links, price_hreves)):
+            if re.compile('^/currencies/').findall(href.strip()):
+                prices.append(link)
+                links.append('https://coinmarketcap.com/' + 'href')
 
 
 
