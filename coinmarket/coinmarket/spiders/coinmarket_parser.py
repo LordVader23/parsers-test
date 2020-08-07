@@ -40,6 +40,14 @@ class CoinmarketParserSpider(scrapy.Spider):
 
             yield scrapped_data
 
+    def errback_web(self, failure):
+        # log all failures
+        self.logger.error(repr(failure))
+        item = {}
+        item['Web Address'] = failure.request.url
+
+        yield item
+
 
 
 
