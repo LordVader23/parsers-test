@@ -5,8 +5,8 @@ import re
 
 class CoinmarketParserSpider(scrapy.Spider):
     name = 'coinmarket_parser'
-    allowed_domains = ['https://coinmarketcap.com/all/views/all/', 'coinmarketcap.com']
-    start_urls = ['http://https://coinmarketcap.com/all/views/all//']
+    allowed_domains = [r'https://coinmarketcap.com/all/views/all/', 'coinmarketcap.com']
+    start_urls = [r'https://coinmarketcap.com/all/views/all/']
 
     def parse(self, response):
         # names = response.css('div img + a.cmc-link::text').extract()
