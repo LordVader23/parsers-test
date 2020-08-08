@@ -1,201 +1,402 @@
-page,name,price,link
-https://coinmarketcap.com/all/views/all/,Bitcoin,"$11,679.40",/currencies/bitcoin/markets/
-https://coinmarketcap.com/all/views/all/,Ethereum,$391.00,/currencies/ethereum/markets/
-https://coinmarketcap.com/all/views/all/,XRP,$0.293868,/currencies/xrp/markets/
-https://coinmarketcap.com/all/views/all/,Tether,$1.00,/currencies/tether/markets/
-https://coinmarketcap.com/all/views/all/,Bitcoin Cash,$303.73,/currencies/bitcoin-cash/markets/
-https://coinmarketcap.com/all/views/all/,Chainlink,$12.98,/currencies/chainlink/markets/
-https://coinmarketcap.com/all/views/all/,Bitcoin SV,$231.39,/currencies/bitcoin-sv/markets/
-https://coinmarketcap.com/all/views/all/,Litecoin,$57.93,/currencies/litecoin/markets/
-https://coinmarketcap.com/all/views/all/,Cardano,$0.142518,/currencies/cardano/markets/
-https://coinmarketcap.com/all/views/all/,Binance Coin,$22.64,/currencies/binance-coin/markets/
-https://coinmarketcap.com/all/views/all/,Crypto.com Coin,$0.165974,/currencies/crypto-com-coin/markets/
-https://coinmarketcap.com/all/views/all/,EOS,$3.07,/currencies/eos/markets/
-https://coinmarketcap.com/all/views/all/,Tezos,$3.26,/currencies/tezos/markets/
-https://coinmarketcap.com/all/views/all/,Stellar,$0.103349,/currencies/stellar/markets/
-https://coinmarketcap.com/all/views/all/,Monero,$94.51,/currencies/monero/markets/
-https://coinmarketcap.com/all/views/all/,TRON,$0.020408,/currencies/tron/markets/
-https://coinmarketcap.com/all/views/all/,UNUS SED LEO,$1.29,/currencies/unus-sed-leo/markets/
-https://coinmarketcap.com/all/views/all/,USD Coin,$0.999049,/currencies/usd-coin/markets/
-https://coinmarketcap.com/all/views/all/,VeChain,$0.020311,/currencies/vechain/markets/
-https://coinmarketcap.com/all/views/all/,Huobi Token,$4.72,/currencies/huobi-token/markets/
-https://coinmarketcap.com/all/views/all/,Dash,$98.99,/currencies/dash/markets/
-https://coinmarketcap.com/all/views/all/,IOTA,$0.333351,/currencies/iota/markets/
-https://coinmarketcap.com/all/views/all/,Zcash,$94.82,/currencies/zcash/markets/
-https://coinmarketcap.com/all/views/all/,Neo,$13.00,/currencies/neo/markets/
-https://coinmarketcap.com/all/views/all/,Ethereum Classic,$6.90,/currencies/ethereum-classic/markets/
-https://coinmarketcap.com/all/views/all/,Cosmos,$4.14,/currencies/cosmos/markets/
-https://coinmarketcap.com/all/views/all/,Maker,$585.24,/currencies/maker/markets/
-https://coinmarketcap.com/all/views/all/,NEM,$0.062931,/currencies/nem/markets/
-https://coinmarketcap.com/all/views/all/,HedgeTrade,$1.91,/currencies/hedgetrade/markets/
-https://coinmarketcap.com/all/views/all/,Aave,$0.418815,/currencies/aave/markets/
-https://coinmarketcap.com/all/views/all/,Ontology,$0.712661,/currencies/ontology/markets/
-https://coinmarketcap.com/all/views/all/,Dogecoin,$0.003495,/currencies/dogecoin/markets/
-https://coinmarketcap.com/all/views/all/,Synthetix Network Token,$4.38,/currencies/synthetix-network-token/markets/
-https://coinmarketcap.com/all/views/all/,Compound,$153.65,/currencies/compound/markets/
-https://coinmarketcap.com/all/views/all/,Basic Attention Token,$0.259101,/currencies/basic-attention-token/markets/
-https://coinmarketcap.com/all/views/all/,Dai,$1.01,/currencies/multi-collateral-dai/markets/
-https://coinmarketcap.com/all/views/all/,DigiByte,$0.027609,/currencies/digibyte/markets/
-https://coinmarketcap.com/all/views/all/,OKB,$5.92,/currencies/okb/markets/
-https://coinmarketcap.com/all/views/all/,Algorand,$0.426049,/currencies/algorand/markets/
-https://coinmarketcap.com/all/views/all/,FTX Token,$3.48,/currencies/ftx-token/markets/
-https://coinmarketcap.com/all/views/all/,Kyber Network,$1.62,/currencies/kyber-network/markets/
-https://coinmarketcap.com/all/views/all/,Elrond,$0.023229,/currencies/elrond/markets/
-https://coinmarketcap.com/all/views/all/,0x,$0.413910,/currencies/0x/markets/
-https://coinmarketcap.com/all/views/all/,Hyperion,$0.916954,/currencies/hyperion/markets/
-https://coinmarketcap.com/all/views/all/,BitTorrent,$0.000432,/currencies/bittorrent/markets/
-https://coinmarketcap.com/all/views/all/,THETA,$0.317705,/currencies/theta/markets/
-https://coinmarketcap.com/all/views/all/,Zilliqa,$0.025758,/currencies/zilliqa/markets/
-https://coinmarketcap.com/all/views/all/,Qtum,$2.72,/currencies/qtum/markets/
-https://coinmarketcap.com/all/views/all/,Paxos Standard,$1.00,/currencies/paxos-standard/markets/
-https://coinmarketcap.com/all/views/all/,Band Protocol,$11.86,/currencies/band-protocol/markets/
-https://coinmarketcap.com/all/views/all/,Augur,$21.00,/currencies/augur/markets/
-https://coinmarketcap.com/all/views/all/,OMG Network,$1.59,/currencies/omg/markets/
-https://coinmarketcap.com/all/views/all/,Hedera Hashgraph,$0.044168,/currencies/hedera-hashgraph/markets/
-https://coinmarketcap.com/all/views/all/,ICON,$0.394523,/currencies/icon/markets/
-https://coinmarketcap.com/all/views/all/,TrueUSD,$1.00,/currencies/trueusd/markets/
-https://coinmarketcap.com/all/views/all/,Ampleforth,$0.647091,/currencies/ampleforth/markets/
-https://coinmarketcap.com/all/views/all/,Lisk,$1.56,/currencies/lisk/markets/
-https://coinmarketcap.com/all/views/all/,Decred,$16.28,/currencies/decred/markets/
-https://coinmarketcap.com/all/views/all/,Ren,$0.217429,/currencies/ren/markets/
-https://coinmarketcap.com/all/views/all/,Bancor,$2.73,/currencies/bancor/markets/
-https://coinmarketcap.com/all/views/all/,Waves,$1.82,/currencies/waves/markets/
-https://coinmarketcap.com/all/views/all/,Flexacoin,$0.006415,/currencies/flexacoin/markets/
-https://coinmarketcap.com/all/views/all/,Bitcoin Gold,$10.34,/currencies/bitcoin-gold/markets/
-https://coinmarketcap.com/all/views/all/,Enjin Coin,$0.214007,/currencies/enjin-coin/markets/
-https://coinmarketcap.com/all/views/all/,Binance USD,$0.998880,/currencies/binance-usd/markets/
-https://coinmarketcap.com/all/views/all/,Bitcoin Diamond,$0.828622,/currencies/bitcoin-diamond/markets/
-https://coinmarketcap.com/all/views/all/,Ravencoin,$0.022215,/currencies/ravencoin/markets/
-https://coinmarketcap.com/all/views/all/,Terra,$0.390014,/currencies/terra-luna/markets/
-https://coinmarketcap.com/all/views/all/,Ocean Protocol,$0.420825,/currencies/ocean-protocol/markets/
-https://coinmarketcap.com/all/views/all/,Loopring,$0.132589,/currencies/loopring/markets/
-https://coinmarketcap.com/all/views/all/,Holo,$0.000875,/currencies/holo/markets/
-https://coinmarketcap.com/all/views/all/,Bytom,$0.109856,/currencies/bytom/markets/
-https://coinmarketcap.com/all/views/all/,Kava.io,$4.29,/currencies/kava/markets/
-https://coinmarketcap.com/all/views/all/,HUSD,$0.999554,/currencies/husd/markets/
-https://coinmarketcap.com/all/views/all/,Nano,$1.03,/currencies/nano/markets/
-https://coinmarketcap.com/all/views/all/,Siacoin,$0.003214,/currencies/siacoin/markets/
-https://coinmarketcap.com/all/views/all/,Swipe,$2.03,/currencies/swipe/markets/
-https://coinmarketcap.com/all/views/all/,Decentraland,$0.091659,/currencies/decentraland/markets/
-https://coinmarketcap.com/all/views/all/,Nervos Network,$0.006283,/currencies/nervos-network/markets/
-https://coinmarketcap.com/all/views/all/,MonaCoin,$1.92,/currencies/monacoin/markets/
-https://coinmarketcap.com/all/views/all/,The Midas Touch Gold,$0.029107,/currencies/the-midas-touch-gold/markets/
-https://coinmarketcap.com/all/views/all/,iExec RLC,$1.52,/currencies/rlc/markets/
-https://coinmarketcap.com/all/views/all/,Blockstack,$0.222919,/currencies/blockstack/markets/
-https://coinmarketcap.com/all/views/all/,Divi,$0.062875,/currencies/divi/markets/
-https://coinmarketcap.com/all/views/all/,ZB Token,$0.246652,/currencies/zb-token/markets/
-https://coinmarketcap.com/all/views/all/,Balancer,$16.20,/currencies/balancer/markets/
-https://coinmarketcap.com/all/views/all/,DxChain Token,$0.002247,/currencies/dxchain-token/markets/
-https://coinmarketcap.com/all/views/all/,Aragon,$3.45,/currencies/aragon/markets/
-https://coinmarketcap.com/all/views/all/,THORChain,$0.667818,/currencies/thorchain/markets/
-https://coinmarketcap.com/all/views/all/,Verge,$0.006438,/currencies/verge/markets/
-https://coinmarketcap.com/all/views/all/,Horizen,$10.75,/currencies/horizen/markets/
-https://coinmarketcap.com/all/views/all/,Status,$0.027535,/currencies/status/markets/
-https://coinmarketcap.com/all/views/all/,Celsius,$0.393978,/currencies/celsius/markets/
-https://coinmarketcap.com/all/views/all/,IOST,$0.006122,/currencies/iostoken/markets/
-https://coinmarketcap.com/all/views/all/,Nexo,$0.164100,/currencies/nexo/markets/
-https://coinmarketcap.com/all/views/all/,Aurora,$0.013922,/currencies/aurora/markets/
-https://coinmarketcap.com/all/views/all/,Quant,$7.52,/currencies/quant/markets/
-https://coinmarketcap.com/all/views/all/,MCO,$5.45,/currencies/crypto-com/markets/
-https://coinmarketcap.com/all/views/all/,Zcoin,$8.02,/currencies/zcoin/markets/
-https://coinmarketcap.com/all/views/all/,Energy Web Token,$12.74,/currencies/energy-web-token/markets/
-https://coinmarketcap.com/all/views/all/,Komodo,$0.703354,/currencies/komodo/markets/
-https://coinmarketcap.com/all/views/all/,Matic Network,$0.022633,/currencies/matic-network/markets/
-https://coinmarketcap.com/all/views/all/,Steem,$0.221816,/currencies/steem/markets/
-https://coinmarketcap.com/all/views/all/,BitShares,$0.026201,/currencies/bitshares/markets/
-https://coinmarketcap.com/all/views/all/,KuCoin Shares,$0.972590,/currencies/kucoin-shares/markets/
-https://coinmarketcap.com/all/views/all/,SwissBorg,$0.109019,/currencies/swissborg/markets/
-https://coinmarketcap.com/all/views/all/,Hive,$0.255259,/currencies/hive-blockchain/markets/
-https://coinmarketcap.com/all/views/all/,Reserve Rights,$0.010969,/currencies/reserve-rights/markets/
-https://coinmarketcap.com/all/views/all/,TomoChain,$1.04,/currencies/tomochain/markets/
-https://coinmarketcap.com/all/views/all/,Travala.com,$1.88,/currencies/travala/markets/
-https://coinmarketcap.com/all/views/all/,XinFin Network,$0.006061,/currencies/xinfin-network/markets/
-https://coinmarketcap.com/all/views/all/,ABBC Coin,$0.132335,/currencies/abbc-coin/markets/
-https://coinmarketcap.com/all/views/all/,pNetwork,$1.28,/currencies/pnetwork/markets/
-https://coinmarketcap.com/all/views/all/,Unibright,$0.478216,/currencies/unibright/markets/
-https://coinmarketcap.com/all/views/all/,Velas,$0.052367,/currencies/velas/markets/
-https://coinmarketcap.com/all/views/all/,Fetch.ai,$0.093204,/currencies/fetch/markets/
-https://coinmarketcap.com/all/views/all/,Golem,$0.069730,/currencies/golem-network-tokens/markets/
-https://coinmarketcap.com/all/views/all/,JUST,$0.048074,/currencies/just/markets/
-https://coinmarketcap.com/all/views/all/,Ardor,$0.068011,/currencies/ardor/markets/
-https://coinmarketcap.com/all/views/all/,Digitex Futures,$0.074659,/currencies/digitex-futures/markets/
-https://coinmarketcap.com/all/views/all/,Syscoin,$0.112212,/currencies/syscoin/markets/
-https://coinmarketcap.com/all/views/all/,Harmony,$0.010471,/currencies/harmony/markets/
-https://coinmarketcap.com/all/views/all/,bZx Protocol,$0.455887,/currencies/bzx-protocol/markets/
-https://coinmarketcap.com/all/views/all/,HyperCash,$1.43,/currencies/hypercash/markets/
-https://coinmarketcap.com/all/views/all/,Ark,$0.519408,/currencies/ark/markets/
-https://coinmarketcap.com/all/views/all/,WAX,$0.050528,/currencies/wax/markets/
-https://coinmarketcap.com/all/views/all/,Energi,$1.97,/currencies/energi/markets/
-https://coinmarketcap.com/all/views/all/,Chiliz,$0.013215,/currencies/chiliz/markets/
-https://coinmarketcap.com/all/views/all/,RSK Infrastructure Framework,$0.098598,/currencies/rsk-infrastructure-framework/markets/
-https://coinmarketcap.com/all/views/all/,Stratis,$0.593785,/currencies/stratis/markets/
-https://coinmarketcap.com/all/views/all/,CyberVein,$0.054954,/currencies/cybervein/markets/
-https://coinmarketcap.com/all/views/all/,v.systems,$0.028074,/currencies/v-systems/markets/
-https://coinmarketcap.com/all/views/all/,aelf,$0.104458,/currencies/aelf/markets/
-https://coinmarketcap.com/all/views/all/,PAX Gold,"$2,033.29",/currencies/pax-gold/markets/
-https://coinmarketcap.com/all/views/all/,Ankr,$0.009452,/currencies/ankr/markets/
-https://coinmarketcap.com/all/views/all/,Electroneum,$0.005390,/currencies/electroneum/markets/
-https://coinmarketcap.com/all/views/all/,Aeternity,$0.168722,/currencies/aeternity/markets/
-https://coinmarketcap.com/all/views/all/,IRISnet,$0.065533,/currencies/irisnet/markets/
-https://coinmarketcap.com/all/views/all/,Elastos,$2.43,/currencies/elastos/markets/
-https://coinmarketcap.com/all/views/all/,Numeraire,$18.88,/currencies/numeraire/markets/
-https://coinmarketcap.com/all/views/all/,Voyager Token,$0.232305,/currencies/voyager-token/markets/
-https://coinmarketcap.com/all/views/all/,Aion,$0.114879,/currencies/aion/markets/
-https://coinmarketcap.com/all/views/all/,Pundi X,$0.000219,/currencies/pundi-x/markets/
-https://coinmarketcap.com/all/views/all/,OriginTrail,$0.160744,/currencies/origintrail/markets/
-https://coinmarketcap.com/all/views/all/,Akropolis ,$0.032734,/currencies/akropolis/markets/
-https://coinmarketcap.com/all/views/all/,Kleros,$0.095200,/currencies/kleros/markets/
-https://coinmarketcap.com/all/views/all/,NULS,$0.515795,/currencies/nuls/markets/
-https://coinmarketcap.com/all/views/all/,MaidSafeCoin,$0.101950,/currencies/maidsafecoin/markets/
-https://coinmarketcap.com/all/views/all/,WaykiChain,$0.237329,/currencies/waykichain/markets/
-https://coinmarketcap.com/all/views/all/,Super Zero Protocol,$0.153993,/currencies/super-zero-protocol/markets/
-https://coinmarketcap.com/all/views/all/,VeThor Token,$0.001596,/currencies/vethor-token/markets/
-https://coinmarketcap.com/all/views/all/,SOLVE,$0.122059,/currencies/solve/markets/
-https://coinmarketcap.com/all/views/all/,MXC,$0.016860,/currencies/mxc/markets/
-https://coinmarketcap.com/all/views/all/,Solana,$2.39,/currencies/solana/markets/
-https://coinmarketcap.com/all/views/all/,Power Ledger,$0.097179,/currencies/power-ledger/markets/
-https://coinmarketcap.com/all/views/all/,WINk,$0.000130,/currencies/wink-tronbet/markets/
-https://coinmarketcap.com/all/views/all/,Utrust,$0.088881,/currencies/utrust/markets/
-https://coinmarketcap.com/all/views/all/,Storj,$0.198177,/currencies/storj/markets/
-https://coinmarketcap.com/all/views/all/,Nimiq,$0.006147,/currencies/nimiq/markets/
-https://coinmarketcap.com/all/views/all/,Gatechain Token,$0.550685,/currencies/gatechain-token/markets/
-https://coinmarketcap.com/all/views/all/,Origin Protocol,$0.362846,/currencies/origin-protocol/markets/
-https://coinmarketcap.com/all/views/all/,IoTeX,$0.008001,/currencies/iotex/markets/
-https://coinmarketcap.com/all/views/all/,ReddCoin,$0.001310,/currencies/reddcoin/markets/
-https://coinmarketcap.com/all/views/all/,Streamr,$0.055121,/currencies/streamr/markets/
-https://coinmarketcap.com/all/views/all/,Orbs,$0.017187,/currencies/orbs/markets/
-https://coinmarketcap.com/all/views/all/,STASIS EURO,$1.16,/currencies/stasis-euro/markets/
-https://coinmarketcap.com/all/views/all/,Kusama,$12.37,/currencies/kusama/markets/
-https://coinmarketcap.com/all/views/all/,Wanchain,$0.298066,/currencies/wanchain/markets/
-https://coinmarketcap.com/all/views/all/,Molecular Future,$0.431043,/currencies/molecular-future/markets/
-https://coinmarketcap.com/all/views/all/,Fantom,$0.017161,/currencies/fantom/markets/
-https://coinmarketcap.com/all/views/all/,Gnosis,$31.21,/currencies/gnosis-gno/markets/
-https://coinmarketcap.com/all/views/all/,GXChain,$0.530307,/currencies/gxchain/markets/
-https://coinmarketcap.com/all/views/all/,Theta Fuel,$0.008873,/currencies/theta-fuel/markets/
-https://coinmarketcap.com/all/views/all/,DAD,$0.272380,/currencies/dad/markets/
-https://coinmarketcap.com/all/views/all/,Beam,$0.493654,/currencies/beam/markets/
-https://coinmarketcap.com/all/views/all/,Waltonchain,$0.478473,/currencies/waltonchain/markets/
-https://coinmarketcap.com/all/views/all/,Thunder Token,$0.005578,/currencies/thunder-token/markets/
-https://coinmarketcap.com/all/views/all/,Loki,$0.652381,/currencies/loki/markets/
-https://coinmarketcap.com/all/views/all/,Melon,$25.47,/currencies/melon/markets/
-https://coinmarketcap.com/all/views/all/,Celer Network,$0.008240,/currencies/celer-network/markets/
-https://coinmarketcap.com/all/views/all/,Cortex,$0.124134,/currencies/cortex/markets/
-https://coinmarketcap.com/all/views/all/,Crypterium,$0.310550,/currencies/crpt/markets/
-https://coinmarketcap.com/all/views/all/,Huobi Pool Token,$0.006132,/currencies/huobi-pool-token/markets/
-https://coinmarketcap.com/all/views/all/,FunFair,$0.004633,/currencies/funfair/markets/
-https://coinmarketcap.com/all/views/all/,Perlin,$0.084771,/currencies/perlin/markets/
-https://coinmarketcap.com/all/views/all/,Request,$0.037253,/currencies/request/markets/
-https://coinmarketcap.com/all/views/all/,Ripio Credit Network,$0.057115,/currencies/ripio-credit-network/markets/
-https://coinmarketcap.com/all/views/all/,WazirX,$0.125478,/currencies/wazirx/markets/
-https://coinmarketcap.com/all/views/all/,COTI,$0.050357,/currencies/coti/markets/
-https://coinmarketcap.com/all/views/all/,PIVX,$0.502559,/currencies/pivx/markets/
-https://coinmarketcap.com/all/views/all/,Project Pai,$0.019121,/currencies/project-pai/markets/
-https://coinmarketcap.com/all/views/all/,Dent,$0.000337,/currencies/dent/markets/
-https://coinmarketcap.com/all/views/all/,Switcheo,$0.037103,/currencies/switcheo/markets/
-https://coinmarketcap.com/all/views/all/,V-ID,$0.593097,/currencies/v-id/markets/
-https://coinmarketcap.com/all/views/all/,Wirex Token,$0.010158,/currencies/wirex-token/markets/
-https://coinmarketcap.com/all/views/all/,SingularityNET,$0.033045,/currencies/singularitynet/markets/
-https://coinmarketcap.com/all/views/all/,Bluzelle,$0.112963,/currencies/bluzelle/markets/
-https://coinmarketcap.com/all/views/all/,BORA,$0.039548,/currencies/bora/markets/
-https://coinmarketcap.com/all/views/all/,Grin,$0.544528,/currencies/grin/markets/
-https://coinmarketcap.com/all/views/all/,Fusion,$0.564471,/currencies/fusion/markets/
+page,name,price,symbol,link
+https://coinmarketcap.com/all/views/all/,Bitcoin,"$11,690.08",BTC,https://coinmarketcap.com/currencies/bitcoin/markets/
+https://coinmarketcap.com/all/views/all/,Ethereum,$390.69,ETH,https://coinmarketcap.com/currencies/ethereum/markets/
+https://coinmarketcap.com/all/views/all/,XRP,$0.293330,XRP,https://coinmarketcap.com/currencies/xrp/markets/
+https://coinmarketcap.com/all/views/all/,Tether,$1.00,USDT,https://coinmarketcap.com/currencies/tether/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin Cash,$303.35,BCH,https://coinmarketcap.com/currencies/bitcoin-cash/markets/
+https://coinmarketcap.com/all/views/all/,Chainlink,$12.89,LINK,https://coinmarketcap.com/currencies/chainlink/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin SV,$231.18,BSV,https://coinmarketcap.com/currencies/bitcoin-sv/markets/
+https://coinmarketcap.com/all/views/all/,Litecoin,$57.92,LTC,https://coinmarketcap.com/currencies/litecoin/markets/
+https://coinmarketcap.com/all/views/all/,Cardano,$0.142440,ADA,https://coinmarketcap.com/currencies/cardano/markets/
+https://coinmarketcap.com/all/views/all/,Binance Coin,$22.60,BNB,https://coinmarketcap.com/currencies/binance-coin/markets/
+https://coinmarketcap.com/all/views/all/,Crypto.com Coin,$0.166368,CRO,https://coinmarketcap.com/currencies/crypto-com-coin/markets/
+https://coinmarketcap.com/all/views/all/,EOS,$3.06,EOS,https://coinmarketcap.com/currencies/eos/markets/
+https://coinmarketcap.com/all/views/all/,Tezos,$3.31,XTZ,https://coinmarketcap.com/currencies/tezos/markets/
+https://coinmarketcap.com/all/views/all/,Stellar,$0.103520,XLM,https://coinmarketcap.com/currencies/stellar/markets/
+https://coinmarketcap.com/all/views/all/,Monero,$94.58,XMR,https://coinmarketcap.com/currencies/monero/markets/
+https://coinmarketcap.com/all/views/all/,TRON,$0.020408,TRX,https://coinmarketcap.com/currencies/tron/markets/
+https://coinmarketcap.com/all/views/all/,UNUS SED LEO,$1.29,LEO,https://coinmarketcap.com/currencies/unus-sed-leo/markets/
+https://coinmarketcap.com/all/views/all/,USD Coin,$0.999261,USDC,https://coinmarketcap.com/currencies/usd-coin/markets/
+https://coinmarketcap.com/all/views/all/,VeChain,$0.020191,VET,https://coinmarketcap.com/currencies/vechain/markets/
+https://coinmarketcap.com/all/views/all/,Huobi Token,$4.72,HT,https://coinmarketcap.com/currencies/huobi-token/markets/
+https://coinmarketcap.com/all/views/all/,Dash,$98.71,DASH,https://coinmarketcap.com/currencies/dash/markets/
+https://coinmarketcap.com/all/views/all/,IOTA,$0.333027,MIOTA,https://coinmarketcap.com/currencies/iota/markets/
+https://coinmarketcap.com/all/views/all/,Zcash,$94.23,ZEC,https://coinmarketcap.com/currencies/zcash/markets/
+https://coinmarketcap.com/all/views/all/,Neo,$12.96,NEO,https://coinmarketcap.com/currencies/neo/markets/
+https://coinmarketcap.com/all/views/all/,Ethereum Classic,$6.89,ETC,https://coinmarketcap.com/currencies/ethereum-classic/markets/
+https://coinmarketcap.com/all/views/all/,Cosmos,$4.14,ATOM,https://coinmarketcap.com/currencies/cosmos/markets/
+https://coinmarketcap.com/all/views/all/,Maker,$585.96,MKR,https://coinmarketcap.com/currencies/maker/markets/
+https://coinmarketcap.com/all/views/all/,NEM,$0.062931,XEM,https://coinmarketcap.com/currencies/nem/markets/
+https://coinmarketcap.com/all/views/all/,HedgeTrade,$1.92,HEDG,https://coinmarketcap.com/currencies/hedgetrade/markets/
+https://coinmarketcap.com/all/views/all/,Aave,$0.419297,LEND,https://coinmarketcap.com/currencies/aave/markets/
+https://coinmarketcap.com/all/views/all/,Ontology,$0.712718,ONT,https://coinmarketcap.com/currencies/ontology/markets/
+https://coinmarketcap.com/all/views/all/,Dogecoin,$0.003499,DOGE,https://coinmarketcap.com/currencies/dogecoin/markets/
+https://coinmarketcap.com/all/views/all/,Synthetix Network Token,$4.38,SNX,https://coinmarketcap.com/currencies/synthetix-network-token/markets/
+https://coinmarketcap.com/all/views/all/,Compound,$153.39,COMP,https://coinmarketcap.com/currencies/compound/markets/
+https://coinmarketcap.com/all/views/all/,Basic Attention Token,$0.258925,BAT,https://coinmarketcap.com/currencies/basic-attention-token/markets/
+https://coinmarketcap.com/all/views/all/,Dai,$1.02,DAI,https://coinmarketcap.com/currencies/multi-collateral-dai/markets/
+https://coinmarketcap.com/all/views/all/,DigiByte,$0.027478,DGB,https://coinmarketcap.com/currencies/digibyte/markets/
+https://coinmarketcap.com/all/views/all/,OKB,$5.93,OKB,https://coinmarketcap.com/currencies/okb/markets/
+https://coinmarketcap.com/all/views/all/,FTX Token,$3.48,FTT,https://coinmarketcap.com/currencies/ftx-token/markets/
+https://coinmarketcap.com/all/views/all/,Algorand,$0.421989,ALGO,https://coinmarketcap.com/currencies/algorand/markets/
+https://coinmarketcap.com/all/views/all/,Kyber Network,$1.64,KNC,https://coinmarketcap.com/currencies/kyber-network/markets/
+https://coinmarketcap.com/all/views/all/,Elrond,$0.023016,ERD,https://coinmarketcap.com/currencies/elrond/markets/
+https://coinmarketcap.com/all/views/all/,0x,$0.414010,ZRX,https://coinmarketcap.com/currencies/0x/markets/
+https://coinmarketcap.com/all/views/all/,Hyperion,$0.916679,HYN,https://coinmarketcap.com/currencies/hyperion/markets/
+https://coinmarketcap.com/all/views/all/,BitTorrent,$0.000432,BTT,https://coinmarketcap.com/currencies/bittorrent/markets/
+https://coinmarketcap.com/all/views/all/,THETA,$0.318261,THETA,https://coinmarketcap.com/currencies/theta/markets/
+https://coinmarketcap.com/all/views/all/,Zilliqa,$0.025478,ZIL,https://coinmarketcap.com/currencies/zilliqa/markets/
+https://coinmarketcap.com/all/views/all/,Qtum,$2.71,QTUM,https://coinmarketcap.com/currencies/qtum/markets/
+https://coinmarketcap.com/all/views/all/,Band Protocol,$12.05,BAND,https://coinmarketcap.com/currencies/band-protocol/markets/
+https://coinmarketcap.com/all/views/all/,Paxos Standard,$1.00,PAX,https://coinmarketcap.com/currencies/paxos-standard/markets/
+https://coinmarketcap.com/all/views/all/,Augur,$21.00,REP,https://coinmarketcap.com/currencies/augur/markets/
+https://coinmarketcap.com/all/views/all/,OMG Network,$1.59,OMG,https://coinmarketcap.com/currencies/omg/markets/
+https://coinmarketcap.com/all/views/all/,Hedera Hashgraph,$0.044247,HBAR,https://coinmarketcap.com/currencies/hedera-hashgraph/markets/
+https://coinmarketcap.com/all/views/all/,ICON,$0.394714,ICX,https://coinmarketcap.com/currencies/icon/markets/
+https://coinmarketcap.com/all/views/all/,TrueUSD,$1.00,TUSD,https://coinmarketcap.com/currencies/trueusd/markets/
+https://coinmarketcap.com/all/views/all/,Ampleforth,$0.646172,AMPL,https://coinmarketcap.com/currencies/ampleforth/markets/
+https://coinmarketcap.com/all/views/all/,Lisk,$1.56,LSK,https://coinmarketcap.com/currencies/lisk/markets/
+https://coinmarketcap.com/all/views/all/,Decred,$16.29,DCR,https://coinmarketcap.com/currencies/decred/markets/
+https://coinmarketcap.com/all/views/all/,Ren,$0.217869,REN,https://coinmarketcap.com/currencies/ren/markets/
+https://coinmarketcap.com/all/views/all/,Waves,$1.82,WAVES,https://coinmarketcap.com/currencies/waves/markets/
+https://coinmarketcap.com/all/views/all/,Bancor,$2.68,BNT,https://coinmarketcap.com/currencies/bancor/markets/
+https://coinmarketcap.com/all/views/all/,Flexacoin,$0.006350,FXC,https://coinmarketcap.com/currencies/flexacoin/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin Gold,$10.35,BTG,https://coinmarketcap.com/currencies/bitcoin-gold/markets/
+https://coinmarketcap.com/all/views/all/,Enjin Coin,$0.214161,ENJ,https://coinmarketcap.com/currencies/enjin-coin/markets/
+https://coinmarketcap.com/all/views/all/,Binance USD,$1.00,BUSD,https://coinmarketcap.com/currencies/binance-usd/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin Diamond,$0.832369,BCD,https://coinmarketcap.com/currencies/bitcoin-diamond/markets/
+https://coinmarketcap.com/all/views/all/,Kava.io,$4.51,KAVA,https://coinmarketcap.com/currencies/kava/markets/
+https://coinmarketcap.com/all/views/all/,Ravencoin,$0.022254,RVN,https://coinmarketcap.com/currencies/ravencoin/markets/
+https://coinmarketcap.com/all/views/all/,Terra,$0.390947,LUNA,https://coinmarketcap.com/currencies/terra-luna/markets/
+https://coinmarketcap.com/all/views/all/,Ocean Protocol,$0.424003,OCEAN,https://coinmarketcap.com/currencies/ocean-protocol/markets/
+https://coinmarketcap.com/all/views/all/,Loopring,$0.132229,LRC,https://coinmarketcap.com/currencies/loopring/markets/
+https://coinmarketcap.com/all/views/all/,Bytom,$0.109801,BTM,https://coinmarketcap.com/currencies/bytom/markets/
+https://coinmarketcap.com/all/views/all/,Holo,$0.000865,HOT,https://coinmarketcap.com/currencies/holo/markets/
+https://coinmarketcap.com/all/views/all/,HUSD,$1.00,HUSD,https://coinmarketcap.com/currencies/husd/markets/
+https://coinmarketcap.com/all/views/all/,Nano,$1.03,NANO,https://coinmarketcap.com/currencies/nano/markets/
+https://coinmarketcap.com/all/views/all/,Swipe,$2.02,SXP,https://coinmarketcap.com/currencies/swipe/markets/
+https://coinmarketcap.com/all/views/all/,Siacoin,$0.003160,SC,https://coinmarketcap.com/currencies/siacoin/markets/
+https://coinmarketcap.com/all/views/all/,Decentraland,$0.091640,MANA,https://coinmarketcap.com/currencies/decentraland/markets/
+https://coinmarketcap.com/all/views/all/,Nervos Network,$0.006305,CKB,https://coinmarketcap.com/currencies/nervos-network/markets/
+https://coinmarketcap.com/all/views/all/,MonaCoin,$1.92,MONA,https://coinmarketcap.com/currencies/monacoin/markets/
+https://coinmarketcap.com/all/views/all/,The Midas Touch Gold,$0.028991,TMTG,https://coinmarketcap.com/currencies/the-midas-touch-gold/markets/
+https://coinmarketcap.com/all/views/all/,iExec RLC,$1.53,RLC,https://coinmarketcap.com/currencies/rlc/markets/
+https://coinmarketcap.com/all/views/all/,Blockstack,$0.222541,STX,https://coinmarketcap.com/currencies/blockstack/markets/
+https://coinmarketcap.com/all/views/all/,Divi,$0.062926,DIVI,https://coinmarketcap.com/currencies/divi/markets/
+https://coinmarketcap.com/all/views/all/,ZB Token,$0.247403,ZB,https://coinmarketcap.com/currencies/zb-token/markets/
+https://coinmarketcap.com/all/views/all/,Balancer,$16.31,BAL,https://coinmarketcap.com/currencies/balancer/markets/
+https://coinmarketcap.com/all/views/all/,Aragon,$3.45,ANT,https://coinmarketcap.com/currencies/aragon/markets/
+https://coinmarketcap.com/all/views/all/,DxChain Token,$0.002229,DX,https://coinmarketcap.com/currencies/dxchain-token/markets/
+https://coinmarketcap.com/all/views/all/,THORChain,$0.669037,RUNE,https://coinmarketcap.com/currencies/thorchain/markets/
+https://coinmarketcap.com/all/views/all/,Verge,$0.006464,XVG,https://coinmarketcap.com/currencies/verge/markets/
+https://coinmarketcap.com/all/views/all/,Horizen,$10.79,ZEN,https://coinmarketcap.com/currencies/horizen/markets/
+https://coinmarketcap.com/all/views/all/,Status,$0.027550,SNT,https://coinmarketcap.com/currencies/status/markets/
+https://coinmarketcap.com/all/views/all/,Celsius,$0.394228,CEL,https://coinmarketcap.com/currencies/celsius/markets/
+https://coinmarketcap.com/all/views/all/,IOST,$0.006112,IOST,https://coinmarketcap.com/currencies/iostoken/markets/
+https://coinmarketcap.com/all/views/all/,Nexo,$0.164079,NEXO,https://coinmarketcap.com/currencies/nexo/markets/
+https://coinmarketcap.com/all/views/all/,Aurora,$0.013905,AOA,https://coinmarketcap.com/currencies/aurora/markets/
+https://coinmarketcap.com/all/views/all/,Quant,$7.52,QNT,https://coinmarketcap.com/currencies/quant/markets/
+https://coinmarketcap.com/all/views/all/,Zcoin,$8.03,XZC,https://coinmarketcap.com/currencies/zcoin/markets/
+https://coinmarketcap.com/all/views/all/,MCO,$5.45,MCO,https://coinmarketcap.com/currencies/crypto-com/markets/
+https://coinmarketcap.com/all/views/all/,Komodo,$0.701715,KMD,https://coinmarketcap.com/currencies/komodo/markets/
+https://coinmarketcap.com/all/views/all/,Matic Network,$0.022650,MATIC,https://coinmarketcap.com/currencies/matic-network/markets/
+https://coinmarketcap.com/all/views/all/,Energy Web Token,$12.60,EWT,https://coinmarketcap.com/currencies/energy-web-token/markets/
+https://coinmarketcap.com/all/views/all/,Steem,$0.220294,STEEM,https://coinmarketcap.com/currencies/steem/markets/
+https://coinmarketcap.com/all/views/all/,BitShares,$0.026193,BTS,https://coinmarketcap.com/currencies/bitshares/markets/
+https://coinmarketcap.com/all/views/all/,KuCoin Shares,$0.973102,KCS,https://coinmarketcap.com/currencies/kucoin-shares/markets/
+https://coinmarketcap.com/all/views/all/,SwissBorg,$0.108998,CHSB,https://coinmarketcap.com/currencies/swissborg/markets/
+https://coinmarketcap.com/all/views/all/,Hive,$0.255894,HIVE,https://coinmarketcap.com/currencies/hive-blockchain/markets/
+https://coinmarketcap.com/all/views/all/,Reserve Rights,$0.010956,RSR,https://coinmarketcap.com/currencies/reserve-rights/markets/
+https://coinmarketcap.com/all/views/all/,XinFin Network,$0.006072,XDCE,https://coinmarketcap.com/currencies/xinfin-network/markets/
+https://coinmarketcap.com/all/views/all/,ABBC Coin,$0.133106,ABBC,https://coinmarketcap.com/currencies/abbc-coin/markets/
+https://coinmarketcap.com/all/views/all/,Travala.com,$1.87,AVA,https://coinmarketcap.com/currencies/travala/markets/
+https://coinmarketcap.com/all/views/all/,pNetwork,$1.29,PNT,https://coinmarketcap.com/currencies/pnetwork/markets/
+https://coinmarketcap.com/all/views/all/,TomoChain,$1.02,TOMO,https://coinmarketcap.com/currencies/tomochain/markets/
+https://coinmarketcap.com/all/views/all/,Fetch.ai,$0.095412,FET,https://coinmarketcap.com/currencies/fetch/markets/
+https://coinmarketcap.com/all/views/all/,Unibright,$0.477104,UBT,https://coinmarketcap.com/currencies/unibright/markets/
+https://coinmarketcap.com/all/views/all/,Velas,$0.052208,VLX,https://coinmarketcap.com/currencies/velas/markets/
+https://coinmarketcap.com/all/views/all/,Golem,$0.069641,GNT,https://coinmarketcap.com/currencies/golem-network-tokens/markets/
+https://coinmarketcap.com/all/views/all/,JUST,$0.047860,JST,https://coinmarketcap.com/currencies/just/markets/
+https://coinmarketcap.com/all/views/all/,Ardor,$0.067957,ARDR,https://coinmarketcap.com/currencies/ardor/markets/
+https://coinmarketcap.com/all/views/all/,Digitex Futures,$0.075894,DGTX,https://coinmarketcap.com/currencies/digitex-futures/markets/
+https://coinmarketcap.com/all/views/all/,Syscoin,$0.111817,SYS,https://coinmarketcap.com/currencies/syscoin/markets/
+https://coinmarketcap.com/all/views/all/,Harmony,$0.010463,ONE,https://coinmarketcap.com/currencies/harmony/markets/
+https://coinmarketcap.com/all/views/all/,bZx Protocol,$0.456590,BZRX,https://coinmarketcap.com/currencies/bzx-protocol/markets/
+https://coinmarketcap.com/all/views/all/,HyperCash,$1.43,HC,https://coinmarketcap.com/currencies/hypercash/markets/
+https://coinmarketcap.com/all/views/all/,Ark,$0.520350,ARK,https://coinmarketcap.com/currencies/ark/markets/
+https://coinmarketcap.com/all/views/all/,WAX,$0.050537,WAXP,https://coinmarketcap.com/currencies/wax/markets/
+https://coinmarketcap.com/all/views/all/,Chiliz,$0.013227,CHZ,https://coinmarketcap.com/currencies/chiliz/markets/
+https://coinmarketcap.com/all/views/all/,Energi,$1.96,NRG,https://coinmarketcap.com/currencies/energi/markets/
+https://coinmarketcap.com/all/views/all/,RSK Infrastructure Framework,$0.098570,RIF,https://coinmarketcap.com/currencies/rsk-infrastructure-framework/markets/
+https://coinmarketcap.com/all/views/all/,Stratis,$0.594815,STRAT,https://coinmarketcap.com/currencies/stratis/markets/
+https://coinmarketcap.com/all/views/all/,CyberVein,$0.055109,CVT,https://coinmarketcap.com/currencies/cybervein/markets/
+https://coinmarketcap.com/all/views/all/,v.systems,$0.028191,VSYS,https://coinmarketcap.com/currencies/v-systems/markets/
+https://coinmarketcap.com/all/views/all/,PAX Gold,"$2,038.92",PAXG,https://coinmarketcap.com/currencies/pax-gold/markets/
+https://coinmarketcap.com/all/views/all/,aelf,$0.104222,ELF,https://coinmarketcap.com/currencies/aelf/markets/
+https://coinmarketcap.com/all/views/all/,Electroneum,$0.005382,ETN,https://coinmarketcap.com/currencies/electroneum/markets/
+https://coinmarketcap.com/all/views/all/,Ankr,$0.009349,ANKR,https://coinmarketcap.com/currencies/ankr/markets/
+https://coinmarketcap.com/all/views/all/,Aeternity,$0.168827,AE,https://coinmarketcap.com/currencies/aeternity/markets/
+https://coinmarketcap.com/all/views/all/,Elastos,$2.43,ELA,https://coinmarketcap.com/currencies/elastos/markets/
+https://coinmarketcap.com/all/views/all/,IRISnet,$0.065264,IRIS,https://coinmarketcap.com/currencies/irisnet/markets/
+https://coinmarketcap.com/all/views/all/,Voyager Token,$0.235066,VGX,https://coinmarketcap.com/currencies/voyager-token/markets/
+https://coinmarketcap.com/all/views/all/,Numeraire,$18.93,NMR,https://coinmarketcap.com/currencies/numeraire/markets/
+https://coinmarketcap.com/all/views/all/,Aion,$0.114964,AION,https://coinmarketcap.com/currencies/aion/markets/
+https://coinmarketcap.com/all/views/all/,Pundi X,$0.000219,NPXS,https://coinmarketcap.com/currencies/pundi-x/markets/
+https://coinmarketcap.com/all/views/all/,OriginTrail,$0.160578,TRAC,https://coinmarketcap.com/currencies/origintrail/markets/
+https://coinmarketcap.com/all/views/all/,Akropolis ,$0.032412,AKRO,https://coinmarketcap.com/currencies/akropolis/markets/
+https://coinmarketcap.com/all/views/all/,Kleros,$0.095653,PNK,https://coinmarketcap.com/currencies/kleros/markets/
+https://coinmarketcap.com/all/views/all/,NULS,$0.515927,NULS,https://coinmarketcap.com/currencies/nuls/markets/
+https://coinmarketcap.com/all/views/all/,MaidSafeCoin,$0.101699,MAID,https://coinmarketcap.com/currencies/maidsafecoin/markets/
+https://coinmarketcap.com/all/views/all/,WaykiChain,$0.237813,WICC,https://coinmarketcap.com/currencies/waykichain/markets/
+https://coinmarketcap.com/all/views/all/,Super Zero Protocol,$0.154480,SERO,https://coinmarketcap.com/currencies/super-zero-protocol/markets/
+https://coinmarketcap.com/all/views/all/,VeThor Token,$0.001599,VTHO,https://coinmarketcap.com/currencies/vethor-token/markets/
+https://coinmarketcap.com/all/views/all/,SOLVE,$0.121754,SOLVE,https://coinmarketcap.com/currencies/solve/markets/
+https://coinmarketcap.com/all/views/all/,MXC,$0.016818,MXC,https://coinmarketcap.com/currencies/mxc/markets/
+https://coinmarketcap.com/all/views/all/,Solana,$2.39,SOL,https://coinmarketcap.com/currencies/solana/markets/
+https://coinmarketcap.com/all/views/all/,Power Ledger,$0.097316,POWR,https://coinmarketcap.com/currencies/power-ledger/markets/
+https://coinmarketcap.com/all/views/all/,WINk,$0.000130,WIN,https://coinmarketcap.com/currencies/wink-tronbet/markets/
+https://coinmarketcap.com/all/views/all/,Utrust,$0.089176,UTK,https://coinmarketcap.com/currencies/utrust/markets/
+https://coinmarketcap.com/all/views/all/,Nimiq,$0.006200,NIM,https://coinmarketcap.com/currencies/nimiq/markets/
+https://coinmarketcap.com/all/views/all/,Storj,$0.197925,STORJ,https://coinmarketcap.com/currencies/storj/markets/
+https://coinmarketcap.com/all/views/all/,Gatechain Token,$0.550182,GT,https://coinmarketcap.com/currencies/gatechain-token/markets/
+https://coinmarketcap.com/all/views/all/,Origin Protocol,$0.362925,OGN,https://coinmarketcap.com/currencies/origin-protocol/markets/
+https://coinmarketcap.com/all/views/all/,IoTeX,$0.008030,IOTX,https://coinmarketcap.com/currencies/iotex/markets/
+https://coinmarketcap.com/all/views/all/,ReddCoin,$0.001310,RDD,https://coinmarketcap.com/currencies/reddcoin/markets/
+https://coinmarketcap.com/all/views/all/,Orbs,$0.017192,ORBS,https://coinmarketcap.com/currencies/orbs/markets/
+https://coinmarketcap.com/all/views/all/,Streamr,$0.054971,DATA,https://coinmarketcap.com/currencies/streamr/markets/
+https://coinmarketcap.com/all/views/all/,STASIS EURO,$1.16,EURS,https://coinmarketcap.com/currencies/stasis-euro/markets/
+https://coinmarketcap.com/all/views/all/,Molecular Future,$0.433473,MOF,https://coinmarketcap.com/currencies/molecular-future/markets/
+https://coinmarketcap.com/all/views/all/,Kusama,$12.38,KSM,https://coinmarketcap.com/currencies/kusama/markets/
+https://coinmarketcap.com/all/views/all/,Wanchain,$0.298355,WAN,https://coinmarketcap.com/currencies/wanchain/markets/
+https://coinmarketcap.com/all/views/all/,Fantom,$0.017125,FTM,https://coinmarketcap.com/currencies/fantom/markets/
+https://coinmarketcap.com/all/views/all/,Gnosis,$31.29,GNO,https://coinmarketcap.com/currencies/gnosis-gno/markets/
+https://coinmarketcap.com/all/views/all/,GXChain,$0.530687,GXC,https://coinmarketcap.com/currencies/gxchain/markets/
+https://coinmarketcap.com/all/views/all/,Theta Fuel,$0.008885,TFUEL,https://coinmarketcap.com/currencies/theta-fuel/markets/
+https://coinmarketcap.com/all/views/all/,DAD,$0.271760,DAD,https://coinmarketcap.com/currencies/dad/markets/
+https://coinmarketcap.com/all/views/all/,Beam,$0.491916,BEAM,https://coinmarketcap.com/currencies/beam/markets/
+https://coinmarketcap.com/all/views/all/,Waltonchain,$0.478403,WTC,https://coinmarketcap.com/currencies/waltonchain/markets/
+https://coinmarketcap.com/all/views/all/,Thunder Token,$0.005593,TT,https://coinmarketcap.com/currencies/thunder-token/markets/
+https://coinmarketcap.com/all/views/all/,Celer Network,$0.008270,CELR,https://coinmarketcap.com/currencies/celer-network/markets/
+https://coinmarketcap.com/all/views/all/,Melon,$25.32,MLN,https://coinmarketcap.com/currencies/melon/markets/
+https://coinmarketcap.com/all/views/all/,Loki,$0.639724,LOKI,https://coinmarketcap.com/currencies/loki/markets/
+https://coinmarketcap.com/all/views/all/,Cortex,$0.124041,CTXC,https://coinmarketcap.com/currencies/cortex/markets/
+https://coinmarketcap.com/all/views/all/,Crypterium,$0.308882,CRPT,https://coinmarketcap.com/currencies/crpt/markets/
+https://coinmarketcap.com/all/views/all/,Huobi Pool Token,$0.006136,HPT,https://coinmarketcap.com/currencies/huobi-pool-token/markets/
+https://coinmarketcap.com/all/views/all/,FunFair,$0.004662,FUN,https://coinmarketcap.com/currencies/funfair/markets/
+https://coinmarketcap.com/all/views/all/,Request,$0.037347,REQ,https://coinmarketcap.com/currencies/request/markets/
+https://coinmarketcap.com/all/views/all/,Perlin,$0.084454,PERL,https://coinmarketcap.com/currencies/perlin/markets/
+https://coinmarketcap.com/all/views/all/,Ripio Credit Network,$0.057239,RCN,https://coinmarketcap.com/currencies/ripio-credit-network/markets/
+https://coinmarketcap.com/all/views/all/,WazirX,$0.125683,WRX,https://coinmarketcap.com/currencies/wazirx/markets/
+https://coinmarketcap.com/all/views/all/,COTI,$0.050510,COTI,https://coinmarketcap.com/currencies/coti/markets/
+https://coinmarketcap.com/all/views/all/,PIVX,$0.500157,PIVX,https://coinmarketcap.com/currencies/pivx/markets/
+https://coinmarketcap.com/all/views/all/,Project Pai,$0.019150,PAI,https://coinmarketcap.com/currencies/project-pai/markets/
+https://coinmarketcap.com/all/views/all/,Switcheo,$0.037637,SWTH,https://coinmarketcap.com/currencies/switcheo/markets/
+https://coinmarketcap.com/all/views/all/,Dent,$0.000336,DENT,https://coinmarketcap.com/currencies/dent/markets/
+https://coinmarketcap.com/all/views/all/,Wirex Token,$0.010187,WXT,https://coinmarketcap.com/currencies/wirex-token/markets/
+https://coinmarketcap.com/all/views/all/,V-ID,$0.592087,VIDT,https://coinmarketcap.com/currencies/v-id/markets/
+https://coinmarketcap.com/all/views/all/,BORA,$0.039776,BORA,https://coinmarketcap.com/currencies/bora/markets/
+https://coinmarketcap.com/all/views/all/,Grin,$0.545532,GRIN,https://coinmarketcap.com/currencies/grin/markets/
+https://coinmarketcap.com/all/views/all/,SingularityNET,$0.032537,AGI,https://coinmarketcap.com/currencies/singularitynet/markets/
+https://coinmarketcap.com/all/views/all/,Bluzelle,$0.111952,BLZ,https://coinmarketcap.com/currencies/bluzelle/markets/
+https://coinmarketcap.com/all/views/all/,Fusion,$0.566075,FSN,https://coinmarketcap.com/currencies/fusion/markets/
+page,name,price,symbol,link
+https://coinmarketcap.com/all/views/all/,Bitcoin,"$11,678.70",BTC,https://coinmarketcap.com/currencies/bitcoin/markets/
+https://coinmarketcap.com/all/views/all/,Ethereum,$390.33,ETH,https://coinmarketcap.com/currencies/ethereum/markets/
+https://coinmarketcap.com/all/views/all/,XRP,$0.293194,XRP,https://coinmarketcap.com/currencies/xrp/markets/
+https://coinmarketcap.com/all/views/all/,Tether,$1.00,USDT,https://coinmarketcap.com/currencies/tether/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin Cash,$302.42,BCH,https://coinmarketcap.com/currencies/bitcoin-cash/markets/
+https://coinmarketcap.com/all/views/all/,Chainlink,$12.91,LINK,https://coinmarketcap.com/currencies/chainlink/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin SV,$230.96,BSV,https://coinmarketcap.com/currencies/bitcoin-sv/markets/
+https://coinmarketcap.com/all/views/all/,Litecoin,$57.85,LTC,https://coinmarketcap.com/currencies/litecoin/markets/
+https://coinmarketcap.com/all/views/all/,Cardano,$0.142307,ADA,https://coinmarketcap.com/currencies/cardano/markets/
+https://coinmarketcap.com/all/views/all/,Binance Coin,$22.58,BNB,https://coinmarketcap.com/currencies/binance-coin/markets/
+https://coinmarketcap.com/all/views/all/,Crypto.com Coin,$0.166131,CRO,https://coinmarketcap.com/currencies/crypto-com-coin/markets/
+https://coinmarketcap.com/all/views/all/,EOS,$3.05,EOS,https://coinmarketcap.com/currencies/eos/markets/
+https://coinmarketcap.com/all/views/all/,Tezos,$3.33,XTZ,https://coinmarketcap.com/currencies/tezos/markets/
+https://coinmarketcap.com/all/views/all/,Stellar,$0.103502,XLM,https://coinmarketcap.com/currencies/stellar/markets/
+https://coinmarketcap.com/all/views/all/,Monero,$94.54,XMR,https://coinmarketcap.com/currencies/monero/markets/
+https://coinmarketcap.com/all/views/all/,TRON,$0.020395,TRX,https://coinmarketcap.com/currencies/tron/markets/
+https://coinmarketcap.com/all/views/all/,UNUS SED LEO,$1.29,LEO,https://coinmarketcap.com/currencies/unus-sed-leo/markets/
+https://coinmarketcap.com/all/views/all/,USD Coin,$0.999012,USDC,https://coinmarketcap.com/currencies/usd-coin/markets/
+https://coinmarketcap.com/all/views/all/,VeChain,$0.020318,VET,https://coinmarketcap.com/currencies/vechain/markets/
+https://coinmarketcap.com/all/views/all/,Huobi Token,$4.72,HT,https://coinmarketcap.com/currencies/huobi-token/markets/
+https://coinmarketcap.com/all/views/all/,Dash,$98.67,DASH,https://coinmarketcap.com/currencies/dash/markets/
+https://coinmarketcap.com/all/views/all/,IOTA,$0.332540,MIOTA,https://coinmarketcap.com/currencies/iota/markets/
+https://coinmarketcap.com/all/views/all/,Zcash,$94.19,ZEC,https://coinmarketcap.com/currencies/zcash/markets/
+https://coinmarketcap.com/all/views/all/,Neo,$12.96,NEO,https://coinmarketcap.com/currencies/neo/markets/
+https://coinmarketcap.com/all/views/all/,Ethereum Classic,$6.88,ETC,https://coinmarketcap.com/currencies/ethereum-classic/markets/
+https://coinmarketcap.com/all/views/all/,Cosmos,$4.15,ATOM,https://coinmarketcap.com/currencies/cosmos/markets/
+https://coinmarketcap.com/all/views/all/,Maker,$585.89,MKR,https://coinmarketcap.com/currencies/maker/markets/
+https://coinmarketcap.com/all/views/all/,NEM,$0.062944,XEM,https://coinmarketcap.com/currencies/nem/markets/
+https://coinmarketcap.com/all/views/all/,HedgeTrade,$1.92,HEDG,https://coinmarketcap.com/currencies/hedgetrade/markets/
+https://coinmarketcap.com/all/views/all/,Aave,$0.418398,LEND,https://coinmarketcap.com/currencies/aave/markets/
+https://coinmarketcap.com/all/views/all/,Ontology,$0.711545,ONT,https://coinmarketcap.com/currencies/ontology/markets/
+https://coinmarketcap.com/all/views/all/,Dogecoin,$0.003500,DOGE,https://coinmarketcap.com/currencies/dogecoin/markets/
+https://coinmarketcap.com/all/views/all/,Synthetix Network Token,$4.39,SNX,https://coinmarketcap.com/currencies/synthetix-network-token/markets/
+https://coinmarketcap.com/all/views/all/,Compound,$153.03,COMP,https://coinmarketcap.com/currencies/compound/markets/
+https://coinmarketcap.com/all/views/all/,Basic Attention Token,$0.258470,BAT,https://coinmarketcap.com/currencies/basic-attention-token/markets/
+https://coinmarketcap.com/all/views/all/,Dai,$1.01,DAI,https://coinmarketcap.com/currencies/multi-collateral-dai/markets/
+https://coinmarketcap.com/all/views/all/,DigiByte,$0.027557,DGB,https://coinmarketcap.com/currencies/digibyte/markets/
+https://coinmarketcap.com/all/views/all/,OKB,$5.92,OKB,https://coinmarketcap.com/currencies/okb/markets/
+https://coinmarketcap.com/all/views/all/,FTX Token,$3.48,FTT,https://coinmarketcap.com/currencies/ftx-token/markets/
+https://coinmarketcap.com/all/views/all/,Algorand,$0.422981,ALGO,https://coinmarketcap.com/currencies/algorand/markets/
+https://coinmarketcap.com/all/views/all/,Kyber Network,$1.64,KNC,https://coinmarketcap.com/currencies/kyber-network/markets/
+https://coinmarketcap.com/all/views/all/,Elrond,$0.023031,ERD,https://coinmarketcap.com/currencies/elrond/markets/
+https://coinmarketcap.com/all/views/all/,0x,$0.413788,ZRX,https://coinmarketcap.com/currencies/0x/markets/
+https://coinmarketcap.com/all/views/all/,Hyperion,$0.915832,HYN,https://coinmarketcap.com/currencies/hyperion/markets/
+https://coinmarketcap.com/all/views/all/,BitTorrent,$0.000432,BTT,https://coinmarketcap.com/currencies/bittorrent/markets/
+https://coinmarketcap.com/all/views/all/,THETA,$0.318193,THETA,https://coinmarketcap.com/currencies/theta/markets/
+https://coinmarketcap.com/all/views/all/,Zilliqa,$0.025543,ZIL,https://coinmarketcap.com/currencies/zilliqa/markets/
+https://coinmarketcap.com/all/views/all/,Qtum,$2.71,QTUM,https://coinmarketcap.com/currencies/qtum/markets/
+https://coinmarketcap.com/all/views/all/,Band Protocol,$12.08,BAND,https://coinmarketcap.com/currencies/band-protocol/markets/
+https://coinmarketcap.com/all/views/all/,Paxos Standard,$1.00,PAX,https://coinmarketcap.com/currencies/paxos-standard/markets/
+https://coinmarketcap.com/all/views/all/,Augur,$21.00,REP,https://coinmarketcap.com/currencies/augur/markets/
+https://coinmarketcap.com/all/views/all/,OMG Network,$1.59,OMG,https://coinmarketcap.com/currencies/omg/markets/
+https://coinmarketcap.com/all/views/all/,Hedera Hashgraph,$0.044237,HBAR,https://coinmarketcap.com/currencies/hedera-hashgraph/markets/
+https://coinmarketcap.com/all/views/all/,ICON,$0.394198,ICX,https://coinmarketcap.com/currencies/icon/markets/
+https://coinmarketcap.com/all/views/all/,TrueUSD,$1.00,TUSD,https://coinmarketcap.com/currencies/trueusd/markets/
+https://coinmarketcap.com/all/views/all/,Ampleforth,$0.645211,AMPL,https://coinmarketcap.com/currencies/ampleforth/markets/
+https://coinmarketcap.com/all/views/all/,Lisk,$1.55,LSK,https://coinmarketcap.com/currencies/lisk/markets/
+https://coinmarketcap.com/all/views/all/,Decred,$16.30,DCR,https://coinmarketcap.com/currencies/decred/markets/
+https://coinmarketcap.com/all/views/all/,Ren,$0.217898,REN,https://coinmarketcap.com/currencies/ren/markets/
+https://coinmarketcap.com/all/views/all/,Waves,$1.82,WAVES,https://coinmarketcap.com/currencies/waves/markets/
+https://coinmarketcap.com/all/views/all/,Bancor,$2.66,BNT,https://coinmarketcap.com/currencies/bancor/markets/
+https://coinmarketcap.com/all/views/all/,Flexacoin,$0.006376,FXC,https://coinmarketcap.com/currencies/flexacoin/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin Gold,$10.34,BTG,https://coinmarketcap.com/currencies/bitcoin-gold/markets/
+https://coinmarketcap.com/all/views/all/,Binance USD,$1.00,BUSD,https://coinmarketcap.com/currencies/binance-usd/markets/
+https://coinmarketcap.com/all/views/all/,Enjin Coin,$0.213537,ENJ,https://coinmarketcap.com/currencies/enjin-coin/markets/
+https://coinmarketcap.com/all/views/all/,Bitcoin Diamond,$0.826218,BCD,https://coinmarketcap.com/currencies/bitcoin-diamond/markets/
+https://coinmarketcap.com/all/views/all/,Terra,$0.390928,LUNA,https://coinmarketcap.com/currencies/terra-luna/markets/
+https://coinmarketcap.com/all/views/all/,Ravencoin,$0.022221,RVN,https://coinmarketcap.com/currencies/ravencoin/markets/
+https://coinmarketcap.com/all/views/all/,Ocean Protocol,$0.421270,OCEAN,https://coinmarketcap.com/currencies/ocean-protocol/markets/
+https://coinmarketcap.com/all/views/all/,Loopring,$0.132203,LRC,https://coinmarketcap.com/currencies/loopring/markets/
+https://coinmarketcap.com/all/views/all/,Kava.io,$4.38,KAVA,https://coinmarketcap.com/currencies/kava/markets/
+https://coinmarketcap.com/all/views/all/,Bytom,$0.109758,BTM,https://coinmarketcap.com/currencies/bytom/markets/
+https://coinmarketcap.com/all/views/all/,Holo,$0.000862,HOT,https://coinmarketcap.com/currencies/holo/markets/
+https://coinmarketcap.com/all/views/all/,HUSD,$1.00,HUSD,https://coinmarketcap.com/currencies/husd/markets/
+https://coinmarketcap.com/all/views/all/,Nano,$1.03,NANO,https://coinmarketcap.com/currencies/nano/markets/
+https://coinmarketcap.com/all/views/all/,Swipe,$2.03,SXP,https://coinmarketcap.com/currencies/swipe/markets/
+https://coinmarketcap.com/all/views/all/,Decentraland,$0.091343,MANA,https://coinmarketcap.com/currencies/decentraland/markets/
+https://coinmarketcap.com/all/views/all/,Siacoin,$0.003145,SC,https://coinmarketcap.com/currencies/siacoin/markets/
+https://coinmarketcap.com/all/views/all/,Nervos Network,$0.006290,CKB,https://coinmarketcap.com/currencies/nervos-network/markets/
+https://coinmarketcap.com/all/views/all/,MonaCoin,$1.92,MONA,https://coinmarketcap.com/currencies/monacoin/markets/
+https://coinmarketcap.com/all/views/all/,The Midas Touch Gold,$0.028954,TMTG,https://coinmarketcap.com/currencies/the-midas-touch-gold/markets/
+https://coinmarketcap.com/all/views/all/,iExec RLC,$1.53,RLC,https://coinmarketcap.com/currencies/rlc/markets/
+https://coinmarketcap.com/all/views/all/,Blockstack,$0.222422,STX,https://coinmarketcap.com/currencies/blockstack/markets/
+https://coinmarketcap.com/all/views/all/,Divi,$0.062929,DIVI,https://coinmarketcap.com/currencies/divi/markets/
+https://coinmarketcap.com/all/views/all/,ZB Token,$0.247417,ZB,https://coinmarketcap.com/currencies/zb-token/markets/
+https://coinmarketcap.com/all/views/all/,Balancer,$16.35,BAL,https://coinmarketcap.com/currencies/balancer/markets/
+https://coinmarketcap.com/all/views/all/,Aragon,$3.47,ANT,https://coinmarketcap.com/currencies/aragon/markets/
+https://coinmarketcap.com/all/views/all/,DxChain Token,$0.002224,DX,https://coinmarketcap.com/currencies/dxchain-token/markets/
+https://coinmarketcap.com/all/views/all/,THORChain,$0.668792,RUNE,https://coinmarketcap.com/currencies/thorchain/markets/
+https://coinmarketcap.com/all/views/all/,Verge,$0.006432,XVG,https://coinmarketcap.com/currencies/verge/markets/
+https://coinmarketcap.com/all/views/all/,Horizen,$10.78,ZEN,https://coinmarketcap.com/currencies/horizen/markets/
+https://coinmarketcap.com/all/views/all/,Status,$0.027544,SNT,https://coinmarketcap.com/currencies/status/markets/
+https://coinmarketcap.com/all/views/all/,Celsius,$0.393750,CEL,https://coinmarketcap.com/currencies/celsius/markets/
+https://coinmarketcap.com/all/views/all/,Nexo,$0.164639,NEXO,https://coinmarketcap.com/currencies/nexo/markets/
+https://coinmarketcap.com/all/views/all/,IOST,$0.006107,IOST,https://coinmarketcap.com/currencies/iostoken/markets/
+https://coinmarketcap.com/all/views/all/,Aurora,$0.013905,AOA,https://coinmarketcap.com/currencies/aurora/markets/
+https://coinmarketcap.com/all/views/all/,Quant,$7.50,QNT,https://coinmarketcap.com/currencies/quant/markets/
+https://coinmarketcap.com/all/views/all/,Zcoin,$8.02,XZC,https://coinmarketcap.com/currencies/zcoin/markets/
+https://coinmarketcap.com/all/views/all/,MCO,$5.45,MCO,https://coinmarketcap.com/currencies/crypto-com/markets/
+https://coinmarketcap.com/all/views/all/,Matic Network,$0.022612,MATIC,https://coinmarketcap.com/currencies/matic-network/markets/
+https://coinmarketcap.com/all/views/all/,Komodo,$0.700320,KMD,https://coinmarketcap.com/currencies/komodo/markets/
+https://coinmarketcap.com/all/views/all/,Energy Web Token,$12.58,EWT,https://coinmarketcap.com/currencies/energy-web-token/markets/
+https://coinmarketcap.com/all/views/all/,Steem,$0.220222,STEEM,https://coinmarketcap.com/currencies/steem/markets/
+https://coinmarketcap.com/all/views/all/,BitShares,$0.026238,BTS,https://coinmarketcap.com/currencies/bitshares/markets/
+https://coinmarketcap.com/all/views/all/,KuCoin Shares,$0.972573,KCS,https://coinmarketcap.com/currencies/kucoin-shares/markets/
+https://coinmarketcap.com/all/views/all/,SwissBorg,$0.109102,CHSB,https://coinmarketcap.com/currencies/swissborg/markets/
+https://coinmarketcap.com/all/views/all/,Hive,$0.255455,HIVE,https://coinmarketcap.com/currencies/hive-blockchain/markets/
+https://coinmarketcap.com/all/views/all/,Reserve Rights,$0.010982,RSR,https://coinmarketcap.com/currencies/reserve-rights/markets/
+https://coinmarketcap.com/all/views/all/,XinFin Network,$0.006092,XDCE,https://coinmarketcap.com/currencies/xinfin-network/markets/
+https://coinmarketcap.com/all/views/all/,ABBC Coin,$0.133055,ABBC,https://coinmarketcap.com/currencies/abbc-coin/markets/
+https://coinmarketcap.com/all/views/all/,Travala.com,$1.87,AVA,https://coinmarketcap.com/currencies/travala/markets/
+https://coinmarketcap.com/all/views/all/,pNetwork,$1.28,PNT,https://coinmarketcap.com/currencies/pnetwork/markets/
+https://coinmarketcap.com/all/views/all/,TomoChain,$1.02,TOMO,https://coinmarketcap.com/currencies/tomochain/markets/
+https://coinmarketcap.com/all/views/all/,Fetch.ai,$0.094388,FET,https://coinmarketcap.com/currencies/fetch/markets/
+https://coinmarketcap.com/all/views/all/,Unibright,$0.477796,UBT,https://coinmarketcap.com/currencies/unibright/markets/
+https://coinmarketcap.com/all/views/all/,Velas,$0.052188,VLX,https://coinmarketcap.com/currencies/velas/markets/
+https://coinmarketcap.com/all/views/all/,Golem,$0.069548,GNT,https://coinmarketcap.com/currencies/golem-network-tokens/markets/
+https://coinmarketcap.com/all/views/all/,JUST,$0.047814,JST,https://coinmarketcap.com/currencies/just/markets/
+https://coinmarketcap.com/all/views/all/,Ardor,$0.067882,ARDR,https://coinmarketcap.com/currencies/ardor/markets/
+https://coinmarketcap.com/all/views/all/,Digitex Futures,$0.075713,DGTX,https://coinmarketcap.com/currencies/digitex-futures/markets/
+https://coinmarketcap.com/all/views/all/,Syscoin,$0.112456,SYS,https://coinmarketcap.com/currencies/syscoin/markets/
+https://coinmarketcap.com/all/views/all/,Harmony,$0.010501,ONE,https://coinmarketcap.com/currencies/harmony/markets/
+https://coinmarketcap.com/all/views/all/,bZx Protocol,$0.457629,BZRX,https://coinmarketcap.com/currencies/bzx-protocol/markets/
+https://coinmarketcap.com/all/views/all/,HyperCash,$1.43,HC,https://coinmarketcap.com/currencies/hypercash/markets/
+https://coinmarketcap.com/all/views/all/,Ark,$0.521177,ARK,https://coinmarketcap.com/currencies/ark/markets/
+https://coinmarketcap.com/all/views/all/,WAX,$0.050515,WAXP,https://coinmarketcap.com/currencies/wax/markets/
+https://coinmarketcap.com/all/views/all/,Energi,$2.00,NRG,https://coinmarketcap.com/currencies/energi/markets/
+https://coinmarketcap.com/all/views/all/,Chiliz,$0.013202,CHZ,https://coinmarketcap.com/currencies/chiliz/markets/
+https://coinmarketcap.com/all/views/all/,RSK Infrastructure Framework,$0.098592,RIF,https://coinmarketcap.com/currencies/rsk-infrastructure-framework/markets/
+https://coinmarketcap.com/all/views/all/,Stratis,$0.594697,STRAT,https://coinmarketcap.com/currencies/stratis/markets/
+https://coinmarketcap.com/all/views/all/,CyberVein,$0.055114,CVT,https://coinmarketcap.com/currencies/cybervein/markets/
+https://coinmarketcap.com/all/views/all/,v.systems,$0.028204,VSYS,https://coinmarketcap.com/currencies/v-systems/markets/
+https://coinmarketcap.com/all/views/all/,PAX Gold,"$2,039.03",PAXG,https://coinmarketcap.com/currencies/pax-gold/markets/
+https://coinmarketcap.com/all/views/all/,aelf,$0.104223,ELF,https://coinmarketcap.com/currencies/aelf/markets/
+https://coinmarketcap.com/all/views/all/,Electroneum,$0.005393,ETN,https://coinmarketcap.com/currencies/electroneum/markets/
+https://coinmarketcap.com/all/views/all/,Ankr,$0.009350,ANKR,https://coinmarketcap.com/currencies/ankr/markets/
+https://coinmarketcap.com/all/views/all/,Aeternity,$0.168852,AE,https://coinmarketcap.com/currencies/aeternity/markets/
+https://coinmarketcap.com/all/views/all/,Elastos,$2.43,ELA,https://coinmarketcap.com/currencies/elastos/markets/
+https://coinmarketcap.com/all/views/all/,IRISnet,$0.065274,IRIS,https://coinmarketcap.com/currencies/irisnet/markets/
+https://coinmarketcap.com/all/views/all/,Voyager Token,$0.236226,VGX,https://coinmarketcap.com/currencies/voyager-token/markets/
+https://coinmarketcap.com/all/views/all/,Numeraire,$18.92,NMR,https://coinmarketcap.com/currencies/numeraire/markets/
+https://coinmarketcap.com/all/views/all/,Aion,$0.114994,AION,https://coinmarketcap.com/currencies/aion/markets/
+https://coinmarketcap.com/all/views/all/,Pundi X,$0.000219,NPXS,https://coinmarketcap.com/currencies/pundi-x/markets/
+https://coinmarketcap.com/all/views/all/,OriginTrail,$0.160567,TRAC,https://coinmarketcap.com/currencies/origintrail/markets/
+https://coinmarketcap.com/all/views/all/,Akropolis ,$0.032278,AKRO,https://coinmarketcap.com/currencies/akropolis/markets/
+https://coinmarketcap.com/all/views/all/,Kleros,$0.095611,PNK,https://coinmarketcap.com/currencies/kleros/markets/
+https://coinmarketcap.com/all/views/all/,NULS,$0.516159,NULS,https://coinmarketcap.com/currencies/nuls/markets/
+https://coinmarketcap.com/all/views/all/,MaidSafeCoin,$0.101672,MAID,https://coinmarketcap.com/currencies/maidsafecoin/markets/
+https://coinmarketcap.com/all/views/all/,WaykiChain,$0.238002,WICC,https://coinmarketcap.com/currencies/waykichain/markets/
+https://coinmarketcap.com/all/views/all/,Super Zero Protocol,$0.154374,SERO,https://coinmarketcap.com/currencies/super-zero-protocol/markets/
+https://coinmarketcap.com/all/views/all/,VeThor Token,$0.001588,VTHO,https://coinmarketcap.com/currencies/vethor-token/markets/
+https://coinmarketcap.com/all/views/all/,MXC,$0.016854,MXC,https://coinmarketcap.com/currencies/mxc/markets/
+https://coinmarketcap.com/all/views/all/,SOLVE,$0.121574,SOLVE,https://coinmarketcap.com/currencies/solve/markets/
+https://coinmarketcap.com/all/views/all/,Solana,$2.39,SOL,https://coinmarketcap.com/currencies/solana/markets/
+https://coinmarketcap.com/all/views/all/,Power Ledger,$0.097268,POWR,https://coinmarketcap.com/currencies/power-ledger/markets/
+https://coinmarketcap.com/all/views/all/,WINk,$0.000130,WIN,https://coinmarketcap.com/currencies/wink-tronbet/markets/
+https://coinmarketcap.com/all/views/all/,ReddCoin,$0.001400,RDD,https://coinmarketcap.com/currencies/reddcoin/markets/
+https://coinmarketcap.com/all/views/all/,Utrust,$0.089226,UTK,https://coinmarketcap.com/currencies/utrust/markets/
+https://coinmarketcap.com/all/views/all/,Nimiq,$0.006180,NIM,https://coinmarketcap.com/currencies/nimiq/markets/
+https://coinmarketcap.com/all/views/all/,Storj,$0.197841,STORJ,https://coinmarketcap.com/currencies/storj/markets/
+https://coinmarketcap.com/all/views/all/,IoTeX,$0.008054,IOTX,https://coinmarketcap.com/currencies/iotex/markets/
+https://coinmarketcap.com/all/views/all/,Origin Protocol,$0.363799,OGN,https://coinmarketcap.com/currencies/origin-protocol/markets/
+https://coinmarketcap.com/all/views/all/,Gatechain Token,$0.550182,GT,https://coinmarketcap.com/currencies/gatechain-token/markets/
+https://coinmarketcap.com/all/views/all/,Orbs,$0.017270,ORBS,https://coinmarketcap.com/currencies/orbs/markets/
+https://coinmarketcap.com/all/views/all/,Streamr,$0.054973,DATA,https://coinmarketcap.com/currencies/streamr/markets/
+https://coinmarketcap.com/all/views/all/,STASIS EURO,$1.16,EURS,https://coinmarketcap.com/currencies/stasis-euro/markets/
+https://coinmarketcap.com/all/views/all/,Molecular Future,$0.432488,MOF,https://coinmarketcap.com/currencies/molecular-future/markets/
+https://coinmarketcap.com/all/views/all/,Wanchain,$0.298356,WAN,https://coinmarketcap.com/currencies/wanchain/markets/
+https://coinmarketcap.com/all/views/all/,Kusama,$12.38,KSM,https://coinmarketcap.com/currencies/kusama/markets/
+https://coinmarketcap.com/all/views/all/,Fantom,$0.017138,FTM,https://coinmarketcap.com/currencies/fantom/markets/
+https://coinmarketcap.com/all/views/all/,Gnosis,$31.26,GNO,https://coinmarketcap.com/currencies/gnosis-gno/markets/
+https://coinmarketcap.com/all/views/all/,GXChain,$0.530684,GXC,https://coinmarketcap.com/currencies/gxchain/markets/
+https://coinmarketcap.com/all/views/all/,Theta Fuel,$0.008854,TFUEL,https://coinmarketcap.com/currencies/theta-fuel/markets/
+https://coinmarketcap.com/all/views/all/,DAD,$0.271938,DAD,https://coinmarketcap.com/currencies/dad/markets/
+https://coinmarketcap.com/all/views/all/,Beam,$0.492318,BEAM,https://coinmarketcap.com/currencies/beam/markets/
+https://coinmarketcap.com/all/views/all/,Waltonchain,$0.477697,WTC,https://coinmarketcap.com/currencies/waltonchain/markets/
+https://coinmarketcap.com/all/views/all/,Thunder Token,$0.005592,TT,https://coinmarketcap.com/currencies/thunder-token/markets/
+https://coinmarketcap.com/all/views/all/,Celer Network,$0.008240,CELR,https://coinmarketcap.com/currencies/celer-network/markets/
+https://coinmarketcap.com/all/views/all/,Melon,$25.31,MLN,https://coinmarketcap.com/currencies/melon/markets/
+https://coinmarketcap.com/all/views/all/,Loki,$0.639637,LOKI,https://coinmarketcap.com/currencies/loki/markets/
+https://coinmarketcap.com/all/views/all/,Crypterium,$0.311186,CRPT,https://coinmarketcap.com/currencies/crpt/markets/
+https://coinmarketcap.com/all/views/all/,Cortex,$0.123825,CTXC,https://coinmarketcap.com/currencies/cortex/markets/
+https://coinmarketcap.com/all/views/all/,Huobi Pool Token,$0.006136,HPT,https://coinmarketcap.com/currencies/huobi-pool-token/markets/
+https://coinmarketcap.com/all/views/all/,FunFair,$0.004660,FUN,https://coinmarketcap.com/currencies/funfair/markets/
+https://coinmarketcap.com/all/views/all/,Request,$0.037482,REQ,https://coinmarketcap.com/currencies/request/markets/
+https://coinmarketcap.com/all/views/all/,Perlin,$0.084180,PERL,https://coinmarketcap.com/currencies/perlin/markets/
+https://coinmarketcap.com/all/views/all/,Ripio Credit Network,$0.056951,RCN,https://coinmarketcap.com/currencies/ripio-credit-network/markets/
+https://coinmarketcap.com/all/views/all/,WazirX,$0.125648,WRX,https://coinmarketcap.com/currencies/wazirx/markets/
+https://coinmarketcap.com/all/views/all/,COTI,$0.050455,COTI,https://coinmarketcap.com/currencies/coti/markets/
+https://coinmarketcap.com/all/views/all/,Project Pai,$0.019150,PAI,https://coinmarketcap.com/currencies/project-pai/markets/
+https://coinmarketcap.com/all/views/all/,PIVX,$0.497916,PIVX,https://coinmarketcap.com/currencies/pivx/markets/
+https://coinmarketcap.com/all/views/all/,Switcheo,$0.037493,SWTH,https://coinmarketcap.com/currencies/switcheo/markets/
+https://coinmarketcap.com/all/views/all/,Dent,$0.000334,DENT,https://coinmarketcap.com/currencies/dent/markets/
+https://coinmarketcap.com/all/views/all/,Wirex Token,$0.010208,WXT,https://coinmarketcap.com/currencies/wirex-token/markets/
+https://coinmarketcap.com/all/views/all/,V-ID,$0.591763,VIDT,https://coinmarketcap.com/currencies/v-id/markets/
+https://coinmarketcap.com/all/views/all/,BORA,$0.039690,BORA,https://coinmarketcap.com/currencies/bora/markets/
+https://coinmarketcap.com/all/views/all/,SingularityNET,$0.032691,AGI,https://coinmarketcap.com/currencies/singularitynet/markets/
+https://coinmarketcap.com/all/views/all/,Grin,$0.544932,GRIN,https://coinmarketcap.com/currencies/grin/markets/
+https://coinmarketcap.com/all/views/all/,Bluzelle,$0.111630,BLZ,https://coinmarketcap.com/currencies/bluzelle/markets/
+https://coinmarketcap.com/all/views/all/,Fusion,$0.565474,FSN,https://coinmarketcap.com/currencies/fusion/markets/
