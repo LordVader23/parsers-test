@@ -22,7 +22,7 @@ class CoinmarketParserSpider(scrapy.Spider):
                 'name': name,
                 'price': price,
                 'symbol': symbol,
-                'link': r'https://coinmarketcap.com' + link,
+                'link': r'https://coinmarketcap.com{}'.format(link),
             }
 
             yield scrapped_data
