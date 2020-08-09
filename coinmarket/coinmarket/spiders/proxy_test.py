@@ -1,4 +1,5 @@
 from fake_useragent import UserAgent
+from random import choice
 import scrapy
 
 
