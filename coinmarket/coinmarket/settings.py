@@ -61,7 +61,7 @@ DOWNLOADER_MIDDLEWARES = {
     'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware': 400,
 }
 
-PROXY_LIST = r''
+PROXY_LIST = r'/home/lordvader/parsers-test/proxies.txt'
 PROXY_MODE = 0
 
 
