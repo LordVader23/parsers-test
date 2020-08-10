@@ -52,9 +52,14 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'coinmarket.middlewares.CoinmarketDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'coinmarket.middlewares.CoinmarketDownloaderMiddleware': 543,
+    'scrapy.contrib.downloadermiddleware.retry.RetryMiddleware': 90,
+    'tutorial.randomproxy.RandomProxy': 100,
+    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
+    'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
+    'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware': 400,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
