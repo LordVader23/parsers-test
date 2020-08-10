@@ -62,6 +62,9 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
 }
 
+RETRY_TIMES = 10
+RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
+
 PROXY_LIST = r'/home/lordvader/parsers-test/proxies.txt'
 PROXY_MODE = 0
 
