@@ -7,7 +7,8 @@ import datetime
 class ProxyTestSpider(scrapy.Spider):
     name = 'proxy_test'
     allowed_domains = ['coinmarketcap.com']
-    start_urls = [r'https://coinmarketcap.com/']
+    # start_urls = [r'https://coinmarketcap.com/']
+    start_urls = [r'http://sitespy.ru/my-ip']
     custom_settings = {
         'FEED_URI': 'proxy_test' + datetime.datetime.today().strftime('%y%m%d') + '.csv',
         'FEED_FORMAT': 'csv',
@@ -18,7 +19,14 @@ class ProxyTestSpider(scrapy.Spider):
     }
 
     def parse(self, response):
-        yield response.follow(r'http://sitespy.ru/my-ip', callback=self.get_ip)
+        # yield response.follow(r'http://sitespy.ru/my-ip', callback=self.get_ip)
+        ip = response.css('span.ip::text').extract()
+        user_agent = response.css('span.ip + br + span::text').extract()
+
+        yield {
+            'ip': ip,
+            'user_agent': user_agent,
+        }
 
     def get_ip(self, response):
         ip = response.css('span.ip::text').extract()
