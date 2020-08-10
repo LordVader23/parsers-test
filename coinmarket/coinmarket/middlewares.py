@@ -101,3 +101,15 @@ class CoinmarketDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class ProxiesMiddleware(object):
+    def __init__(self, settings):
+        pass
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler.settings)
+
+    def process_request(self, request, spider):
+        request.meta['proxy'] = "http://IP:PORT"
