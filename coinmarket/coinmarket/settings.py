@@ -61,6 +61,10 @@ DOWNLOADER_MIDDLEWARES = {
     'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware': 400,
 }
 
+PROXY_LIST = r''
+PROXY_MODE = 0
+
+
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
