@@ -54,11 +54,11 @@ ROBOTSTXT_OBEY = False
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'coinmarket.middlewares.CoinmarketDownloaderMiddleware': 543,
-    'scrapy.contrib.downloadermiddleware.retry.RetryMiddleware': 90,
-    'tutorial.randomproxy.RandomProxy': 100,
-    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
-    'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
-    'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware': 400,
+    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
+    'scrapy_proxies.RandomProxy': 100,
+    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    # 'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware': 400,
 }
 
 PROXY_LIST = r'/home/lordvader/parsers-test/proxies.txt'
@@ -99,5 +99,5 @@ PROXY_MODE = 0
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # FEED
-FEED_FORMAT = 'csv'
-FEED_URI = "coinmarket_scrapy.csv"
+# FEED_FORMAT = 'csv'
+# FEED_URI = "coinmarket_scrapy.csv"
