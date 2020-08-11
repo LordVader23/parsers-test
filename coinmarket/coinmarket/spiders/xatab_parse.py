@@ -17,10 +17,19 @@ class XatabParseSpider(scrapy.Spider):
     page_num = 1  # to save number of page
 
     def parse(self, response):
-        links = response.css("div.entry__title h2 > a::attr('href')").extract()
-        num_of_pages = response.css("div.pagination span.nav_ext + a::attr('href')").extract()
+        links = response.css("div.entry div a::attr('href')").extract()
+        links = list(set(links))  # To delete the same lines
 
-        yield from response.follow_all(links, self.parse_page)
+        for link in links:
+            if re.search(r'#download$', link):
+                continue
+            else:
+                yield response.follow(link, self.parse_page)
+
+        num_of_pages = int(response.css("div.pagination span.nav_ext + a::text").extract()[0])
+        # yield from response.follow_all(links, self.parse_page)
+        # for link in links:
+        #     yield from response.follow(link, self.parse_page)
 
         # if self.page_num < num_of_pages:
         #     page_url = r'https://v.otxataba.net/page/{}/'.format(self.page_num)
