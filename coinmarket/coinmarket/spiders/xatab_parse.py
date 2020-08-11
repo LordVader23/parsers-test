@@ -13,7 +13,7 @@ class XatabParseSpider(scrapy.Spider):
         # },
         'FEED_EXPORT_ENCODING': 'utf-8',
     }
-    page_num = 1
+    page_num = 1  # to save number of page
 
     def parse(self, response):
         links = response.css("div.entry__title h2 > a::attr('href')").extract()
@@ -26,7 +26,9 @@ class XatabParseSpider(scrapy.Spider):
             XatabParseSpider.page_num += 1
             yield response.follow(page_url, callback=self.parse)
 
-
     def parse_page(self, response):
-        pass
+        title = response.css("div.inner-entry__allinfo h1.inner-entry__title::text").extract()
+        year_of_issue = response.css("div.inner-entry__details::text").extract()[1]
+        genres = response.css("div.inner-entry__details a::text").extract()  # almost works
+        developer = response.css("div.inner-entry__details a + br + strong::text").extract()  # doesn't work
 
