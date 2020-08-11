@@ -48,7 +48,7 @@ class XatabParseSpider(scrapy.Spider):
                 del genres[index]
 
         some_string = response.css("div.inner-entry__details").extract()[0]  # Some shit to extract developer string(it works!)
-        developer = re.search(r'Разработчик: </strong> ([A-Z]{1}[a-z]+)<br>', some_string).group(1)
+        developer = re.search(r'Разработчик: </strong> (.+)<br>', some_string).group(1)
         download_link = response.css(r"div[id='download'] a::attr('href')").extract()[0]
 
         yield {
