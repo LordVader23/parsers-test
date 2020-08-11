@@ -2,3 +2,47 @@ ip,user_agent
 165.225.66.50," Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36"
 ip,user_agent
 165.225.66.50," Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36"
+page,name,price,symbol,link
+https://coinmarketcap.com/,Bitcoin,"$11,714.88","18,457,581 BTC",https://coinmarketcap.com/currencies/bitcoin/markets/
+https://coinmarketcap.com/,Ethereum,$388.94,1.20%,https://coinmarketcap.com/currencies/ethereum/
+https://coinmarketcap.com/,XRP,$0.297533,6,https://coinmarketcap.com/currencies/ethereum/
+https://coinmarketcap.com/,Tether,$1.00,"65,217,585 LTC",https://coinmarketcap.com/currencies/xrp/markets/
+https://coinmarketcap.com/,Bitcoin Cash,$294.68,-2.46%,https://coinmarketcap.com/currencies/tether/markets/
+https://coinmarketcap.com/,Chainlink,$12.68,13,https://coinmarketcap.com/currencies/bitcoin-cash/
+https://coinmarketcap.com/,Bitcoin SV,$218.71,"17,661,673 XMR",https://coinmarketcap.com/currencies/bitcoin-cash/
+https://coinmarketcap.com/,Litecoin,$57.32,-0.10%,https://coinmarketcap.com/currencies/chainlink/markets/
+https://coinmarketcap.com/,Cardano,$0.141589,20,https://coinmarketcap.com/currencies/bitcoin-sv/markets/
+https://coinmarketcap.com/,Binance Coin,$21.95,"70,538,831 NEO *",https://coinmarketcap.com/currencies/litecoin/
+https://coinmarketcap.com/,Crypto.com Coin,$0.165659,-2.90%,https://coinmarketcap.com/currencies/litecoin/
+https://coinmarketcap.com/,Tezos,$4.13,27,https://coinmarketcap.com/currencies/cardano/markets/
+https://coinmarketcap.com/,EOS,$3.12,"699,029,877 ONT *",https://coinmarketcap.com/currencies/binance-coin/markets/
+https://coinmarketcap.com/,Stellar,$0.104098,-2.67%,https://coinmarketcap.com/currencies/crypto-com-coin/
+https://coinmarketcap.com/,Monero,$92.49,34,https://coinmarketcap.com/currencies/crypto-com-coin/
+https://coinmarketcap.com/,TRON,$0.020756,"13,435,802,335 DGB",https://coinmarketcap.com/currencies/tezos/markets/
+https://coinmarketcap.com/,UNUS SED LEO,$1.27,6.68%,https://coinmarketcap.com/currencies/eos/markets/
+https://coinmarketcap.com/,VeChain,$0.020820,41,https://coinmarketcap.com/currencies/stellar/
+https://coinmarketcap.com/,USD Coin,$1.00,"715,994,632 ZRX *",https://coinmarketcap.com/currencies/stellar/
+https://coinmarketcap.com/,IOTA,$0.395390,-4.35%,https://coinmarketcap.com/currencies/monero/markets/
+https://coinmarketcap.com/,Cosmos,$5.16,48,https://coinmarketcap.com/currencies/tron/markets/
+https://coinmarketcap.com/,Neo,$14.24,"20,494,033 BAND *",https://coinmarketcap.com/currencies/unus-sed-leo/
+https://coinmarketcap.com/,Huobi Token,$4.59,-3.10%,https://coinmarketcap.com/currencies/unus-sed-leo/
+https://coinmarketcap.com/,Dash,$93.89,55,https://coinmarketcap.com/currencies/vechain/markets/
+https://coinmarketcap.com/,Zcash,$85.40,"102,707,416 WAVES *",https://coinmarketcap.com/currencies/usd-coin/markets/
+https://coinmarketcap.com/,Ethereum Classic,$6.90,0.00%,https://coinmarketcap.com/currencies/iota/
+https://coinmarketcap.com/,Maker,$616.18,62,https://coinmarketcap.com/currencies/iota/
+https://coinmarketcap.com/,NEM,$0.062337,"29,950 YFI *",https://coinmarketcap.com/currencies/cosmos/markets/
+https://coinmarketcap.com/,Ontology,$0.794005,-5.40%,https://coinmarketcap.com/currencies/neo/markets/
+https://coinmarketcap.com/,HedgeTrade,$1.85,69,https://coinmarketcap.com/currencies/huobi-token/
+https://coinmarketcap.com/,Aave,$0.376336,"133,248,297 NANO *",https://coinmarketcap.com/currencies/huobi-token/
+https://coinmarketcap.com/,Dogecoin,$0.003467,-4.95%,https://coinmarketcap.com/currencies/dash/markets/
+https://coinmarketcap.com/,Dai,$1.03,76,https://coinmarketcap.com/currencies/zcash/markets/
+https://coinmarketcap.com/,Compound,$169.09,"28,625,000,000 FXC *",https://coinmarketcap.com/currencies/ethereum-classic/
+https://coinmarketcap.com/,Synthetix Network Token,$4.63,-12.98%,https://coinmarketcap.com/currencies/ethereum-classic/
+https://coinmarketcap.com/,DigiByte,$0.031393,83,https://coinmarketcap.com/currencies/maker/markets/
+https://coinmarketcap.com/,Basic Attention Token,$0.271412,"65,729,675 MONA",https://coinmarketcap.com/currencies/nem/markets/
+https://coinmarketcap.com/,Algorand,$0.456883,-2.19%,https://coinmarketcap.com/currencies/ontology/
+https://coinmarketcap.com/,OKB,$5.65,90,https://coinmarketcap.com/currencies/ontology/
+https://coinmarketcap.com/,FTX Token,$3.43,"50,000,000,000 DX *",https://coinmarketcap.com/currencies/hedgetrade/markets/
+https://coinmarketcap.com/,Kyber Network,$1.64,2.30%,https://coinmarketcap.com/currencies/aave/markets/
+https://coinmarketcap.com/,THETA,$0.369218,97,https://coinmarketcap.com/currencies/dogecoin/
+https://coinmarketcap.com/,0x,$0.446446,"12,072,738 QNT *",https://coinmarketcap.com/currencies/dogecoin/
