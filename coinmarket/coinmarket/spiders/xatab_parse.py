@@ -27,14 +27,11 @@ class XatabParseSpider(scrapy.Spider):
                 yield response.follow(link, self.parse_page)
 
         num_of_pages = int(response.css("div.pagination span.nav_ext + a::text").extract()[0])
-        # yield from response.follow_all(links, self.parse_page)
-        # for link in links:
-        #     yield from response.follow(link, self.parse_page)
 
-        # if self.page_num < num_of_pages:
-        #     page_url = r'https://v.otxataba.net/page/{}/'.format(self.page_num)
-        #     XatabParseSpider.page_num += 1
-        #     yield response.follow(page_url, callback=self.parse)
+        if self.page_num < 5:
+            XatabParseSpider.page_num += 1
+            page_url = r'https://v.otxataba.net/page/{}/'.format(self.page_num)
+            yield response.follow(page_url, callback=self.parse)
 
     def parse_page(self, response):
         title = response.css("div.inner-entry__allinfo h1.inner-entry__title::text").extract()[0]
