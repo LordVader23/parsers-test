@@ -36,13 +36,16 @@ class XatabParseSpider(scrapy.Spider):
     def parse_page(self, response):
         title = response.css("div.inner-entry__allinfo h1.inner-entry__title::text").extract()[0]
         year_of_issue = response.css("div.inner-entry__details::text").extract()[1].strip()
-        genres = response.css("div.inner-entry__details a::text").extract()
+        genres_dirty = response.css("div.inner-entry__details a::text").extract()
+        genres = []
 
-        for (index, elem) in enumerate(genres):
-            if re.search(r'года$', elem.strip()):
-                del genres[index]
+        for elem in genres_dirty:
+            if re.search(r'\d+ года', elem.strip()):
+                continue
             elif elem.strip() == 'Лицензии' or elem.strip() == 'Ожидаемые':
-                del genres[index]
+                continue
+            else:
+                genres.append(elem)
 
         some_string = response.css("div.inner-entry__details").extract()[0]  # Some shit to extract developer string(it works!)
         developer = re.search(r'Разработчик: </strong> (.+)<br>', some_string).group(1)
