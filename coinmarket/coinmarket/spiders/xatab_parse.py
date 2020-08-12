@@ -37,8 +37,8 @@ class XatabParseSpider(scrapy.Spider):
         #     yield response.follow(page_url, callback=self.parse)
 
     def parse_page(self, response):
-        title = response.css("div.inner-entry__allinfo h1.inner-entry__title::text").extract()
-        year_of_issue = response.css("div.inner-entry__details::text").extract()[1]  # Almost works
+        title = response.css("div.inner-entry__allinfo h1.inner-entry__title::text").extract()[0]
+        year_of_issue = response.css("div.inner-entry__details::text").extract()[1].strip()
         genres = response.css("div.inner-entry__details a::text").extract()
 
         for (index, elem) in enumerate(genres):
