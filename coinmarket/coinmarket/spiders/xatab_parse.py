@@ -65,4 +65,10 @@ class XatabParseSpider(scrapy.Spider):
             'download link': download_link,
         }
 
+    # def start_requests(self):
+    #     request = scrapy.Request('https://www.hidemyass-freeproxy.com/proxy/ru-ua/aHR0cHM6Ly92Lm90eGF0YWJhLm5ldC8', callback=self.parse_page)
+    #     # request.meta['proxy'] = 'http://198.51.100.14:8080'
+    #     request.headers['Connection'] = 'keep-alive'
+    #     return request
+
 
