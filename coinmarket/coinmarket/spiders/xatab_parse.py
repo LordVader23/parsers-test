@@ -17,6 +17,10 @@ class XatabParseSpider(scrapy.Spider):
     page_num = 1  # to save number of page
 
     def parse(self, response):
+        headers = {
+            "Connection": "keep-alive",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+        }
         links = response.css("div.entry div a::attr('href')").extract()
         links = list(set(links))  # To delete the same lines
 
@@ -25,6 +29,7 @@ class XatabParseSpider(scrapy.Spider):
                 continue
             else:
                 yield response.follow(link, self.parse_page)
+                # yield scrapy.Request(link, headers=headers, callback=self.parse_page)
 
         num_of_pages = int(response.css("div.pagination span.nav_ext + a::text").extract()[0])
 
