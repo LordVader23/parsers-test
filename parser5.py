@@ -1,4 +1,5 @@
 import re
+import base64
 
 # if re.compile('^[A-Z]{3,5}$').findall('AB'.strip()):
 #     print('yes')
@@ -26,17 +27,20 @@ import re
 # c = list(c)
 # print(c)
 
-genres = ['Strategy', 'Simulator', 'Лицензии', '2020 года']
-genres1 = []
+# genres = ['Strategy', 'Simulator', 'Лицензии', '2020 года']
+# genres1 = []
+#
+# for (index, elem) in enumerate(genres):
+#     if re.search(r'\d+ года', elem.strip()):
+#         # del genres[index]
+#         continue
+#     elif elem.strip() == 'Лицензии' or elem.strip() == 'Ожидаемые':
+#         # del genres[index]
+#         continue
+#     else:
+#         genres1.append(elem)
+#
+# print(genres1)
 
-for (index, elem) in enumerate(genres):
-    if re.search(r'\d+ года', elem.strip()):
-        # del genres[index]
-        continue
-    elif elem.strip() == 'Лицензии' or elem.strip() == 'Ожидаемые':
-        # del genres[index]
-        continue
-    else:
-        genres1.append(elem)
-
-print(genres1)
+base64_str = base64.encodebytes(b'USERNAME:PASSWORD').replace(b'\n', b'')
+print(base64_str)
