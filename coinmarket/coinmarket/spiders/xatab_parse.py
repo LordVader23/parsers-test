@@ -33,7 +33,7 @@ class XatabParseSpider(scrapy.Spider):
 
         num_of_pages = int(response.css("div.pagination span.nav_ext + a::text").extract()[0])
 
-        if self.page_num < num_of_pages:
+        if self.page_num < 10:
             XatabParseSpider.page_num += 1
             page_url = r'https://v.otxataba.net/page/{}/'.format(self.page_num)
             yield response.follow(page_url, callback=self.parse)
