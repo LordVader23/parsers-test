@@ -68,8 +68,8 @@ DOWNLOADER_MIDDLEWARES = {
 RETRY_TIMES = 10
 RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
 
-PROXY_LIST = r'/home/lordvader/parsers-test/proxies.txt'
-PROXY_MODE = 0
+# PROXY_LIST = r'/home/lordvader/parsers-test/proxies.txt'
+# PROXY_MODE = 0
 
 # ROTATING_PROXY_LIST = [
 #     'http://37.57.82.66:4153',
