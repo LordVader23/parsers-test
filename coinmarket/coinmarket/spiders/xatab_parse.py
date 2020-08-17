@@ -1,5 +1,7 @@
 import scrapy
 import re
+import time
+import random
 
 
 class XatabParseSpider(scrapy.Spider):
@@ -15,6 +17,7 @@ class XatabParseSpider(scrapy.Spider):
         'FEED_EXPORT_ENCODING': 'utf-8',
     }
     page_num = 1  # to save number of page
+    num_of_pages = 0  # to save number of pages
 
     def parse(self, response):
         headers = {
@@ -28,12 +31,14 @@ class XatabParseSpider(scrapy.Spider):
             if re.search(r'#download$', link):
                 continue
             else:
+                t = random.uniform(1, 3)
+                time.sleep(t)
                 yield response.follow(link, self.parse_page)
                 # yield scrapy.Request(link, headers=headers, callback=self.parse_page)
+        if not self.num_of_pages:
+            XatabParseSpider.num_of_pages = int(response.css("div.pagination span.nav_ext + a::text").extract()[0])
 
-        num_of_pages = int(response.css("div.pagination span.nav_ext + a::text").extract()[0])
-
-        if self.page_num < 10:
+        if self.page_num < 15:
             XatabParseSpider.page_num += 1
             page_url = r'https://v.otxataba.net/page/{}/'.format(self.page_num)
             yield response.follow(page_url, callback=self.parse)
@@ -54,16 +59,19 @@ class XatabParseSpider(scrapy.Spider):
 
         some_string = response.css("div.inner-entry__details").extract()[0]  # Some shit to extract developer string(it works!)
         developer = re.search(r'Разработчик: </strong> (.+)<br>', some_string).group(1)
-        download_link = response.css(r"div[id='download'] a::attr('href')").extract()[0]
-
-        yield {
-            'page': response.url,
-            'title': title,
-            'year of issue': year_of_issue,
-            'genres': r'/'.join(genres),
-            'developer': developer,
-            'download link': download_link,
-        }
+        try:
+            download_link = response.css(r"div[id='download'] a::attr('href')").extract()[0]
+        except IndexError:
+            pass
+        else:
+            yield {
+                'page': response.url,
+                'title': title,
+                'year of issue': year_of_issue,
+                'genres': r'/'.join(genres),
+                'developer': developer,
+                'download link': download_link,
+            }
 
     # def start_requests(self):
     #     request = scrapy.Request('https://www.hidemyass-freeproxy.com/proxy/ru-ua/aHR0cHM6Ly92Lm90eGF0YWJhLm5ldC8', callback=self.parse_page)
