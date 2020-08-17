@@ -56,17 +56,31 @@ DOWNLOADER_MIDDLEWARES = {
     'coinmarket.middlewares.CoinmarketDownloaderMiddleware': 543,
     'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
     # 'scrapy_proxies.RandomProxy': 100,
-    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
     # 'coinmarket.middlewares.ProxiesMiddleware': 400,
-    'coinmarket.middlewares.ProxyMiddleware': 100,
+    # 'coinmarket.middlewares.ProxyMiddleware': 100,
     # 'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
     # 'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+    'scrapy_rotated_proxy.downloadmiddlewares.proxy.RotatedProxyMiddleware': 750,
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'scrapy_useragents.downloadermiddlewares.useragents.UserAgentsMiddleware': 500,
 }
 
 RETRY_TIMES = 10
 RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
+
+ROTATED_PROXY_ENABLED = True
+PROXY_STORAGE = 'scrapy_rotated_proxy.extensions.file_storage.FileProxyStorage'
+PROXY_FILE_PATH = ''
+
+HTTP_PROXIES = [
+    'http://176.108.104.84:38954',
+    'http://109.104.164.105:1080',
+    'https://46.172.69.163:32047',
+    'http://109.232.106.236:52435',
+    'http://159.224.220.63:159.224.220.63',
+    'http://37.235.206.211:4145',
+]
 
 # PROXY_LIST = r'/home/lordvader/parsers-test/proxies.txt'
 # PROXY_MODE = 0
@@ -79,6 +93,7 @@ RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408]
 #     'http://46.172.69.163:32047',
 #     'http://109.232.106.236:52435'
 # ]
+
 
 USER_AGENTS = [
     ('Mozilla/5.0 (X11; Linux x86_64) '
